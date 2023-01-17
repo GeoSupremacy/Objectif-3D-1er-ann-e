@@ -1,0 +1,4 @@
+﻿  ContiguousSubarrayWithMaximumSum.cpp
+C:\Users\GUIC1203\source\repos\Exo\Daily Problem\ContiguousSubarrayWithMaximumSum\ContiguousSubarrayWithMaximumSum.cpp(9,27): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\GUIC1203\source\repos\Exo\Daily Problem\ContiguousSubarrayWithMaximumSum\ContiguousSubarrayWithMaximumSum.cpp(10,9): warning C4101: 'a': unreferenced local variable
+  ContiguousSubarrayWithMaximumSum.vcxproj -> C:\Users\GUIC1203\source\repos\Exo\x64\Debug\ContiguousSubarrayWithMaximumSum.exe
