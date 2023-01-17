@@ -1,0 +1,4 @@
+﻿  ListWith3UniqueNumbers.cpp
+C:\Users\GUIC1203\source\repos\Exo\Daily Problem\ListWith3UniqueNumbers\ListWith3UniqueNumbers.cpp(16,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\GUIC1203\source\repos\Exo\Daily Problem\ListWith3UniqueNumbers\ListWith3UniqueNumbers.cpp(18,27): warning C4018: '<': signed/unsigned mismatch
+  ListWith3UniqueNumbers.vcxproj -> C:\Users\GUIC1203\source\repos\Exo\Debug\ListWith3UniqueNumbers.exe
