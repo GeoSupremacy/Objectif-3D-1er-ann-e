@@ -1,0 +1,4 @@
+﻿  Sort.cpp
+C:\Users\GUIC1203\source\repos\Exo\Daily Problem\Sort\Sort.cpp(20,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\GUIC1203\source\repos\Exo\Daily Problem\Sort\Sort.cpp(63,9): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Sort.vcxproj -> C:\Users\GUIC1203\source\repos\Exo\x64\Debug\Sort.exe

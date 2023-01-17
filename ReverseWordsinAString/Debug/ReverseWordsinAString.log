@@ -1,0 +1,4 @@
+﻿  ReverseWordsinAString.cpp
+C:\Users\GUIC1203\source\repos\Exo\Daily Problem\ReverseWordsinAString\ReverseWordsinAString.cpp(34,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\GUIC1203\source\repos\Exo\Daily Problem\ReverseWordsinAString\ReverseWordsinAString.cpp(46,25): warning C4018: '<': signed/unsigned mismatch
+  ReverseWordsinAString.vcxproj -> C:\Users\GUIC1203\source\repos\Exo\Debug\ReverseWordsinAString.exe

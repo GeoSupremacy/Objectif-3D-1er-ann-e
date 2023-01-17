@@ -1,0 +1,7 @@
+﻿  Sort.cpp
+C:\Users\GUIC1203\source\repos\Exo\Daily Problem\Sort\Sort.cpp(13,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\GUIC1203\source\repos\Exo\Daily Problem\Sort\Sort.cpp(20,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\GUIC1203\source\repos\Exo\Daily Problem\Sort\Sort.cpp(49,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\GUIC1203\source\repos\Exo\Daily Problem\Sort\Sort.cpp(51,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\GUIC1203\source\repos\Exo\Daily Problem\Sort\Sort.cpp(61,23): warning C4018: '<': signed/unsigned mismatch
+  Sort.vcxproj -> C:\Users\GUIC1203\source\repos\Exo\Debug\Sort.exe
