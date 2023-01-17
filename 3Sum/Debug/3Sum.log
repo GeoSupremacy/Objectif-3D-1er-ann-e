@@ -1,6 +1,0 @@
-﻿  3Sum.cpp
-  Solution.cpp
-C:\Users\GUIC1203\source\repos\Exo\Daily Problem\3Sum\Solution.cpp(8,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\GUIC1203\source\repos\Exo\Daily Problem\3Sum\Solution.cpp(14,20): warning C4018: '<': signed/unsigned mismatch
-  Generating Code...
-  3Sum.vcxproj -> C:\Users\GUIC1203\source\repos\Exo\Debug\3Sum.exe
