@@ -1,7 +1,0 @@
-﻿  AnglesOfAClock.cpp
-C:\Users\GUIC1203\source\repos\Exo\Daily Problem\AnglesOfAClock\AnglesOfAClock.cpp(8,20): warning C4244: 'return': conversion from 'const _Ty' to 'int', possible loss of data
-          with
-          [
-              _Ty=double
-          ]
-  AnglesOfAClock.vcxproj -> C:\Users\GUIC1203\source\repos\Exo\Debug\AnglesOfAClock.exe
