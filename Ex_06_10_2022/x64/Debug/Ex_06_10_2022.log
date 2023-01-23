@@ -1,0 +1,10 @@
+﻿  Language.cpp
+C:\Users\GUIC1203\source\repos\Exo\Ex_06_10_2022\Language.cpp(11,37): error C2440: 'initializing': cannot convert from 'char' to 'std::string *'
+C:\Users\GUIC1203\source\repos\Exo\Ex_06_10_2022\Language.cpp(11,24): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Users\GUIC1203\source\repos\Exo\Ex_06_10_2022\Language.cpp(15,42): error C2540: non-constant expression as array bound
+C:\Users\GUIC1203\source\repos\Exo\Ex_06_10_2022\Language.cpp(15,42): error C2440: '=': cannot convert from 'int (*)[1]' to 'std::string *'
+C:\Users\GUIC1203\source\repos\Exo\Ex_06_10_2022\Language.cpp(15,13): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Users\GUIC1203\source\repos\Exo\Ex_06_10_2022\Language.cpp(23,54): error C2440: '=': cannot convert from 'std::string' to 'char'
+C:\Users\GUIC1203\source\repos\Exo\Ex_06_10_2022\Language.cpp(23,49): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  TranslateManager.cpp
+  Generating Code...
