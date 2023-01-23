@@ -1,0 +1,9 @@
+﻿  ExQuaternion.cpp
+  Quaternion.cpp
+C:\Users\GUIC1203\source\repos\Exo\ExQuaternion\Quaternion.cpp(15,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\GUIC1203\source\repos\Exo\ExQuaternion\Quaternion.cpp(46,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\GUIC1203\source\repos\Exo\ExQuaternion\Quaternion.cpp(47,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\GUIC1203\source\repos\Exo\ExQuaternion\Quaternion.cpp(48,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\GUIC1203\source\repos\Exo\ExQuaternion\Quaternion.cpp(49,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  ExQuaternion.vcxproj -> C:\Users\GUIC1203\source\repos\Exo\x64\Debug\ExQuaternion.exe

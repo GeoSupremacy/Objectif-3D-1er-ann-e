@@ -1,0 +1,2 @@
+﻿  Exercice_class.cpp
+C:\Users\GUIC1203\source\repos\Exo\Exercice\Exercice_class\Exercice_class.cpp(16,19): error C2677: binary '<': no global operator found which takes type 'Rectangle<int>' (or there is no acceptable conversion)
