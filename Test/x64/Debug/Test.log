@@ -1,0 +1,12 @@
+﻿  FString.cpp
+C:\Users\GUIC1203\source\repos\Exo\Exercice\Test\FString.cpp(14,41): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\GUIC1203\source\repos\Exo\Exercice\Test\FString.cpp(14,41): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\GUIC1203\source\repos\Exo\Exercice\Test\FString.cpp(189,1): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+  Integer.cpp
+  Test.cpp
+C:\Users\GUIC1203\source\repos\Exo\Exercice\Test\Test.cpp(22,3): error C2146: syntax error: missing ')' before identifier 'x'
+C:\Users\GUIC1203\source\repos\Exo\Exercice\Test\Test.cpp(22,3): error C2065: 'x': undeclared identifier
+C:\Users\GUIC1203\source\repos\Exo\Exercice\Test\Test.cpp(22,1): fatal error C1903: unable to recover from previous error(s); stopping compilation
+  INTERNAL COMPILER ERROR in 'C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\bin\HostX64\x64\CL.exe'
+      Please choose the Technical Support command on the Visual C++
+      Help menu, or open the Technical Support help file for more information

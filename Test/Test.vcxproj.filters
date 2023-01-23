@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{63d42eb7-d209-4f88-84a4-8b03cce9570b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Object">
+      <UniqueIdentifier>{ee2a59f5-660d-4f7d-a9a5-ef4adb9b2ecd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Exception">
+      <UniqueIdentifier>{8e3968b3-a34f-4f9a-a5ce-77cdb595f009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Reflection">
+      <UniqueIdentifier>{6c6be3c3-ea37-4b21-814c-aacfb9092f5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Reflection\BindingFlags">
+      <UniqueIdentifier>{8a10820f-2de4-4283-b858-367204e780f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Reflection\FieldInfo">
+      <UniqueIdentifier>{adf2846f-e4a9-4e04-a12b-2c15cdea4ed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\PrimitiveType">
+      <UniqueIdentifier>{82f7a549-c2ab-4c8f-9224-2351250d8af4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\PrimitiveType\Boolean">
+      <UniqueIdentifier>{9c4e57d7-c6ee-4bd4-97de-0a54d4d7bb58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\PrimitiveType\String">
+      <UniqueIdentifier>{d499b839-670b-4252-9a17-87ed4ab43d0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\PrimitiveType\Integer">
+      <UniqueIdentifier>{3bab88af-f433-4509-8a00-eb54d3fbbcbd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Core\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="FString.cpp">
+      <Filter>Core\PrimitiveType\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Boolean.cpp">
+      <Filter>Core\PrimitiveType\Boolean</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>Core\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="Integer.cpp">
+      <Filter>Core\PrimitiveType\Integer</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldInfo.cpp">
+      <Filter>Core\Reflection\FieldInfo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Object.h">
+      <Filter>Core\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="FString.h">
+      <Filter>Core\PrimitiveType\String</Filter>
+    </ClInclude>
+    <ClInclude Include="Boolean.h">
+      <Filter>Core\PrimitiveType\Boolean</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Core\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="Integer.h">
+      <Filter>Core\PrimitiveType\Integer</Filter>
+    </ClInclude>
+    <ClInclude Include="BindingFlags.h">
+      <Filter>Core\Reflection\BindingFlags</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldInfo.h">
+      <Filter>Core\Reflection\FieldInfo</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

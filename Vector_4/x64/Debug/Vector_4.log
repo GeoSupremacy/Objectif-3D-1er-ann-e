@@ -1,0 +1,6 @@
+﻿  Vector4.cpp
+C:\Users\GUIC1203\source\repos\Exo\Vector_4\Vector4.cpp(47,9): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\GUIC1203\source\repos\Exo\Vector_4\Vector4.cpp(48,9): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\GUIC1203\source\repos\Exo\Vector_4\Vector4.cpp(49,9): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\GUIC1203\source\repos\Exo\Vector_4\Vector4.cpp(50,9): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Vector_4.vcxproj -> C:\Users\GUIC1203\source\repos\Exo\x64\Debug\Vector_4.exe
