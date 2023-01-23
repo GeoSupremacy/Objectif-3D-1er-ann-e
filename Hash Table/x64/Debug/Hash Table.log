@@ -1,0 +1,13 @@
+﻿  Hash Table.cpp
+  HashTable.cpp
+C:\Users\GUIC1203\source\repos\Exo\Exercice\Hash Table\HashTable.cpp(56,19): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\GUIC1203\source\repos\Exo\Exercice\Hash Table\HashTable.cpp(51,10): warning C4101: 'isthat': unreferenced local variable
+C:\Users\GUIC1203\source\repos\Exo\Exercice\Hash Table\HashTable.cpp(64,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\GUIC1203\source\repos\Exo\Exercice\Hash Table\HashTable.cpp(88,48): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\GUIC1203\source\repos\Exo\Exercice\Hash Table\HashTable.cpp(102,25): error C2662: 'void HashTable::SetColor(const std::string)': cannot convert 'this' pointer from 'const HashTable' to 'HashTable &'
+C:\Users\GUIC1203\source\repos\Exo\Exercice\Hash Table\HashTable.cpp(102,9): message : Conversion loses qualifiers
+C:\Users\GUIC1203\source\repos\Exo\Exercice\Hash Table\HashTable.cpp(40,17): message : see declaration of 'HashTable::SetColor'
+C:\Users\GUIC1203\source\repos\Exo\Exercice\Hash Table\HashTable.cpp(104,23): error C2662: 'void HashTable::SetColor(const std::string)': cannot convert 'this' pointer from 'const HashTable' to 'HashTable &'
+C:\Users\GUIC1203\source\repos\Exo\Exercice\Hash Table\HashTable.cpp(104,9): message : Conversion loses qualifiers
+C:\Users\GUIC1203\source\repos\Exo\Exercice\Hash Table\HashTable.cpp(40,17): message : see declaration of 'HashTable::SetColor'
+  Generating Code...

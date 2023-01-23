@@ -1,0 +1,3 @@
+﻿  Hash Table.cpp
+C:\Users\GUIC1203\source\repos\Exo\Exercice\Hash Table\Hash Table.cpp(15): error C4700: uninitialized local variable 'dst' used
+C:\Users\GUIC1203\source\repos\Exo\Exercice\Hash Table\Hash Table.cpp(15): error C4700: uninitialized local variable 'url' used

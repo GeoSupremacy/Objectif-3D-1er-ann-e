@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{f3a97aa0-a74b-4cc0-ac09-10d73dff27a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{e012c117-1b75-428c-b513-dca3ab11c43e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\TicTacToe">
+      <UniqueIdentifier>{fa51c901-b506-4f98-8693-7bf5e4c4c76a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\FlappyBird">
+      <UniqueIdentifier>{c882943e-345b-4858-9af5-eceb242c79ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{4428bf90-375d-4ade-9764-b07a257617d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Utills">
+      <UniqueIdentifier>{105176b9-4be3-4ec9-b0b8-ae7fcf3d4dd9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TicTacToe.cpp">
+      <Filter>Game\TicTacToe</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="FlappyBird.cpp">
+      <Filter>Game\FlappyBird</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuTicTacToe.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Object\Utills</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TicTacToe.h">
+      <Filter>Game\TicTacToe</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuTicTacToe.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="FlappyBird.h">
+      <Filter>Game\FlappyBird</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Object\Utills</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
