@@ -1,0 +1,105 @@
+﻿  Action.cpp
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Exception.h(15,9): warning C4068: unknown pragma 'enfregion'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(11,1): error C3520: 'T': parameter pack must be expanded in this context
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(28): message : see reference to class template instantiation 'Action<T...>' being compiled
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(11,1): error C3965: parameter array is not supported
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(12,1): error C3520: 'T': parameter pack must be expanded in this context
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(16,2): error C3965: parameter array is not supported
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(16,2): error C3520: 'T': parameter pack must be expanded in this context
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(19,1): error C3520: 'T': parameter pack must be expanded in this context
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(19,1): error C3132: '_value': parameter arrays can only be applied to a formal argument of type 'single-dimensional managed array'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(22,2): error C3965: parameter array is not supported
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(22,2): error C3520: 'T': parameter pack must be expanded in this context
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(24,2): error C3965: parameter array is not supported
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(24,2): error C3520: 'T': parameter pack must be expanded in this context
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(26,2): error C3965: parameter array is not supported
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(26,2): error C3520: 'T': parameter pack must be expanded in this context
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(32,15): error C2760: syntax error: '...' was unexpected here; expected 'expression'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(32,15): error C2187: syntax error: '...' was unexpected here
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(32,1): error C3520: 'T': parameter pack must be expanded in this context
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(32,22): error C2039: '{ctor}': is not a member of 'Action<T>'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(32): message : see declaration of 'Action<T>'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(33,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(37,15): error C2760: syntax error: '...' was unexpected here; expected 'expression'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(37,15): error C2187: syntax error: '...' was unexpected here
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(37,22): error C2039: '{ctor}': is not a member of 'Action<T>'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(37): message : see declaration of 'Action<T>'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(38,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(42,15): error C2760: syntax error: '...' was unexpected here; expected 'expression'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(42,15): error C2187: syntax error: '...' was unexpected here
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(42,1): error C3520: 'T': parameter pack must be expanded in this context
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(42,23): error C2039: '{dtor}': is not a member of 'Action<T>'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(32): message : see declaration of 'Action<T>'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(43,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(49,24): error C2039: 'Invoke': is not a member of 'Action<T>'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(37): message : see declaration of 'Action<T>'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(50,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(61,20): error C2760: syntax error: '...' was unexpected here; expected 'expression'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(61,20): error C2187: syntax error: '...' was unexpected here
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(61,1): error C3520: 'T': parameter pack must be expanded in this context
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(61,28): error C2039: '-=': is not a member of 'Action<T>'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(32): message : see declaration of 'Action<T>'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(61,51): error C2143: syntax error: missing ')' before '<tag>::*'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(61,51): error C2059: syntax error: '<tag>::*'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(61,1): error C2059: syntax error: ')'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(62,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(62,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(76,20): error C2760: syntax error: '...' was unexpected here; expected 'expression'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(76,20): error C2187: syntax error: '...' was unexpected here
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(76,1): error C3520: 'T': parameter pack must be expanded in this context
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(76,28): error C2039: '+=': is not a member of 'Action<T>'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(32): message : see declaration of 'Action<T>'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(76,51): error C2143: syntax error: missing ')' before '<tag>::*'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(76,51): error C2059: syntax error: '<tag>::*'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(76,1): error C2059: syntax error: ')'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(77,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(77,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(86,20): error C2760: syntax error: '...' was unexpected here; expected 'expression'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(86,20): error C2187: syntax error: '...' was unexpected here
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(86,1): error C3520: 'T': parameter pack must be expanded in this context
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(86,28): error C2039: '=': is not a member of 'Action<T>'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(32): message : see declaration of 'Action<T>'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(86,50): error C2143: syntax error: missing ')' before '<tag>::*'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(86,50): error C2059: syntax error: '<tag>::*'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(86,1): error C2059: syntax error: ')'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(87,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Action.h(87,1): error C2447: '{': missing function header (old-style formal list?)
+  Exception.cpp
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Exception.h(15,9): warning C4068: unknown pragma 'enfregion'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Exception.cpp(11,118): error C2572: 'Exception::Exception': redefinition of default argument: parameter 1
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Exception.h(14): message : see declaration of 'Exception::Exception'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Exception.cpp(16,22): error C7595: 'std::_Basic_format_string<char>::_Basic_format_string': call to immediate function is not a constant expression
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\format(231,67): message : failure was caused by call of undefined function or one not declared 'constexpr'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\format(231,67): message : see usage of 'std::_You_see_this_error_because_arg_id_is_out_of_range'
+  Object.cpp
+  SevenFonctionMacro.cpp
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\SevenFonctionMacro.cpp(16,54): error C2819: type 'Object' does not have an overloaded member 'operator ->'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Object.h(24): message : see declaration of 'Object'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\SevenFonctionMacro.cpp(16,54): message : did you intend to use '.' instead?
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\SevenFonctionMacro.cpp(16,67): error C2232: '->Object::IsInterface': left operand has 'class' type, use '.'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\SevenFonctionMacro.cpp(16,30): error C7595: 'std::_Basic_format_string<char>::_Basic_format_string': call to immediate function is not a constant expression
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\format(231,67): message : failure was caused by call of undefined function or one not declared 'constexpr'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\format(231,67): message : see usage of 'std::_You_see_this_error_because_arg_id_is_out_of_range'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\SevenFonctionMacro.cpp(17,50): error C2819: type 'Object' does not have an overloaded member 'operator ->'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Object.h(24): message : see declaration of 'Object'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\SevenFonctionMacro.cpp(17,50): message : did you intend to use '.' instead?
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\SevenFonctionMacro.cpp(17,63): error C2232: '->Object::IsInterface': left operand has 'class' type, use '.'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\SevenFonctionMacro.cpp(17,30): error C7595: 'std::_Basic_format_string<char>::_Basic_format_string': call to immediate function is not a constant expression
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\format(231,67): message : failure was caused by call of undefined function or one not declared 'constexpr'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\format(231,67): message : see usage of 'std::_You_see_this_error_because_arg_id_is_out_of_range'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\SevenFonctionMacro.cpp(18,53): error C2819: type 'Object' does not have an overloaded member 'operator ->'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\Object.h(24): message : see declaration of 'Object'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\SevenFonctionMacro.cpp(18,53): message : did you intend to use '.' instead?
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\SevenFonctionMacro.cpp(18,66): error C2232: '->Object::IsInterface': left operand has 'class' type, use '.'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\SevenFonctionMacro.cpp(18,30): error C7595: 'std::_Basic_format_string<char>::_Basic_format_string': call to immediate function is not a constant expression
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\format(231,67): message : failure was caused by call of undefined function or one not declared 'constexpr'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\format(231,67): message : see usage of 'std::_You_see_this_error_because_arg_id_is_out_of_range'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\SevenFonctionMacro.cpp(25,17): error C2664: 'void Display(Object)': cannot convert argument 1 from 'Object *' to 'Object'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\SevenFonctionMacro.cpp(25,17): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\SevenFonctionMacro.cpp(14,6): message : see declaration of 'Display'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\SevenFonctionMacro.cpp(28,18): error C2664: 'void Display(Object)': cannot convert argument 1 from 'IGame *' to 'Object'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\SevenFonctionMacro.cpp(28,18): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\SevenFonctionMacro.cpp(14,6): message : see declaration of 'Display'
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\SevenFonctionMacro.cpp(30,5): error C2065: 'o': undeclared identifier
+C:\Users\GUIC1203\source\repos\SevenFonctionMacro\SevenFonctionMacro.cpp(31,5): error C2143: syntax error: missing ';' before 'return'
+  Generating Code...

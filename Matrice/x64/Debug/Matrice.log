@@ -1,0 +1,5 @@
+﻿  Matrice.cpp
+  Matrix4x4.cpp
+  Generating Code...
+Matrix4x4.obj : error LNK2001: unresolved external symbol "public: static class Matrix4x4 Matrix4x4::identity" (?identity@Matrix4x4@@2V1@A)
+C:\Users\GUIC1203\source\repos\Exo\x64\Debug\Matrice.exe : fatal error LNK1120: 1 unresolved externals
