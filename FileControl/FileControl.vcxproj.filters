@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{71e3fc5c-2094-4c38-b5ac-5ce51cdce9fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\DateTime">
+      <UniqueIdentifier>{c09d26ff-1392-471f-97e1-4fe12989ae37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{edcbb162-36a8-4c6d-98b5-1018e05669fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\StringUtils">
+      <UniqueIdentifier>{abc85494-37f7-4403-b03b-ae8b4b2137c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File">
+      <UniqueIdentifier>{229002e0-9ecd-4486-ba5b-ea399212655a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FileControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="DateTime.cpp">
+      <Filter>Object\DateTime</Filter>
+    </ClCompile>
+    <ClCompile Include="StringUtils.cpp">
+      <Filter>Utils\StringUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="DateTime.h">
+      <Filter>Object\DateTime</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtils.h">
+      <Filter>Utils\StringUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

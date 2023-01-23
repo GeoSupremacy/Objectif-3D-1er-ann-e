@@ -1,0 +1,9 @@
+﻿  Command.cpp
+  DateTime.cpp
+  File.cpp
+C:\Users\GUIC1203\source\repos\Exo\FileControl\File.cpp(202,17): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+  FileControl.cpp
+  Object.cpp
+  StringUtils.cpp
+  Generating Code...
+  FileControl.vcxproj -> C:\Users\GUIC1203\source\repos\Exo\x64\Debug\FileControl.exe
