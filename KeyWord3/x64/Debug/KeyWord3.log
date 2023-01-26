@@ -1,0 +1,9 @@
+﻿  KeyWord3.cpp
+C:\Users\GUIC1203\Desktop\InventoryCorrection\KeyWord3\String.h(36,8): warning C4091: 'typedef ': ignored on left of 'int' when no variable is declared
+C:\Users\GUIC1203\Desktop\InventoryCorrection\KeyWord3\KeyWord3.cpp(8,38): error C2039: 'AfterIndexof': is not a member of 'String'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\KeyWord3\String.h(5): message : see declaration of 'String'
+  String.cpp
+C:\Users\GUIC1203\Desktop\InventoryCorrection\KeyWord3\String.h(36,8): warning C4091: 'typedef ': ignored on left of 'int' when no variable is declared
+C:\Users\GUIC1203\Desktop\InventoryCorrection\KeyWord3\String.cpp(6,44): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\GUIC1203\Desktop\InventoryCorrection\KeyWord3\String.cpp(6,44): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+  Generating Code...
