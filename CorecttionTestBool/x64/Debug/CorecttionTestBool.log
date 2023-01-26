@@ -1,0 +1,3 @@
+﻿  CorecttionTestBool.cpp
+C:\Users\GUIC1203\source\repos\CorecttionTestBool\CorecttionTestBool.cpp(42): warning C4717: 'GuessGame': recursive on all control paths, function will cause runtime stack overflow
+  CorecttionTestBool.vcxproj -> C:\Users\GUIC1203\source\repos\CorecttionTestBool\x64\Debug\CorecttionTestBool.exe
