@@ -1,0 +1,3 @@
+﻿  TestLangue.cpp
+C:\Users\GUIC1203\source\repos\TestLangue\TestLangue.cpp(60,10): warning C4101: 'translate': unreferenced local variable
+  TestLangue.vcxproj -> C:\Users\GUIC1203\source\repos\MyFirstProject\x64\Debug\TestLangue.exe
