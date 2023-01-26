@@ -1,0 +1,278 @@
+﻿  Booking.cpp
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(10,11): error C2079: 'Booking::arrivevalDate' uses undefined class 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(11,11): error C2079: 'Booking::departeDate' uses undefined class 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(10,35): error C2027: use of undefined type 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(5): message : see declaration of 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(11,33): error C2027: use of undefined type 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(5): message : see declaration of 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Object.h(3,1): error C2011: 'Object': 'class' type redefinition
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Object.h(2): message : see declaration of 'Object'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\DateTime.h(3,1): error C2504: 'Object': base class undefined
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\DateTime.h(20,15): error C3668: 'DateTime::ToString': method with override specifier 'override' did not override any base class methods
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Client.h(4,1): error C2504: 'Object': base class undefined
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\DateTime.h(2,16): error C2011: 'DateTime': 'class' type redefinition
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\DateTime.h(2): message : see declaration of 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(6,10): error C2027: use of undefined type 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\DateTime.h(2): message : see declaration of 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(7,1): error C2027: use of undefined type 'Object'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Object.h(2): message : see declaration of 'Object'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(9,20): error C2027: use of undefined type 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\DateTime.h(2): message : see declaration of 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(10,19): error C2027: use of undefined type 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\DateTime.h(2): message : see declaration of 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(15,1): error C2027: use of undefined type 'Object'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Object.h(2): message : see declaration of 'Object'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(22,1): error C2027: use of undefined type 'Object'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Object.h(2): message : see declaration of 'Object'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(23,18): error C2541: 'delete': cannot delete objects that are not pointers
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(26,7): error C2143: syntax error: missing ';' before '*'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(26,7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(26,18): error C2227: left of '->GetClient' must point to class/struct/union/generic type
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(27,1): error C2761: 'Client *Booking::GetClient(void) const': redeclaration of member is not allowed
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(27,1): error C2059: syntax error: '{'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(27,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(27,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(31,19): error C2227: left of '->Arrivate' must point to class/struct/union/generic type
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(31,19): error C2143: syntax error: missing ';' before 'Booking::Arrivate'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(31,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(32,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(32,1): error C2556: 'int Booking::Arrivate(void) const': overloaded function differs only by return type from 'DateTime Booking::Arrivate(void) const'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(19): message : see declaration of 'Booking::Arrivate'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(31,19): error C2371: 'Booking::Arrivate': redefinition; different basic types
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(19): message : see declaration of 'Booking::Arrivate'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(32,1): error C2027: use of undefined type 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\DateTime.h(2): message : see declaration of 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(31,19): error C2027: use of undefined type 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\DateTime.h(2): message : see declaration of 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(36,19): error C2227: left of '->Departe' must point to class/struct/union/generic type
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(36,19): error C2143: syntax error: missing ';' before 'Booking::Departe'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(36,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(36,1): error C2086: 'int DateTime': redefinition
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(31): message : see declaration of 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(37,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(37,1): error C2556: 'int Booking::Departe(void) const': overloaded function differs only by return type from 'DateTime Booking::Departe(void) const'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(20): message : see declaration of 'Booking::Departe'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(36,19): error C2371: 'Booking::Departe': redefinition; different basic types
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(20): message : see declaration of 'Booking::Departe'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(37,1): error C2027: use of undefined type 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\DateTime.h(2): message : see declaration of 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(36,19): error C2027: use of undefined type 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\DateTime.h(2): message : see declaration of 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(41,6): error C2227: left of '->string' must point to class/struct/union/generic type
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(41,22): error C2227: left of '->ToString' must point to class/struct/union/generic type
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(43,17): error C2227: left of '->format' must point to class/struct/union/generic type
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(43,24): warning C4129: 'D': unrecognized character escape sequence
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.cpp(43,24): error C7595: 'std::_Basic_format_string<char>::_Basic_format_string': call to immediate function is not a constant expression
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\format(231,67): message : failure was caused by call of undefined function or one not declared 'constexpr'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\format(231,67): message : see usage of 'std::_You_see_this_error_because_arg_id_is_out_of_range'
+  BookingManager.cpp
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Singleton.h(13,3): error C3861: 'OnDestroy': identifier not found
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Singleton.h(13,12): message : 'OnDestroy': function declaration must be available as none of the arguments depend on a template parameter
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Singleton.h(25): message : see reference to class template instantiation 'Singleton<T>' being compiled
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.h(9,55): error C2760: syntax error: '>' was unexpected here; expected 'expression'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.h(9,33): error C2059: syntax error: '>'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.h(9): error C2062: type 'unknown-type' unexpected
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Object.h(3,1): error C2011: 'Object': 'class' type redefinition
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Object.h(2): message : see declaration of 'Object'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(7,1): error C2504: 'Object': base class undefined
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(10,11): error C2079: 'Booking::arrivevalDate' uses undefined class 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(11,11): error C2079: 'Booking::departeDate' uses undefined class 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(16,4): error C3668: 'Booking::~Booking': method with override specifier 'override' did not override any base class methods
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(22,14): error C3668: 'Booking::ToString': method with override specifier 'override' did not override any base class methods
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(10,35): error C2027: use of undefined type 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(5): message : see declaration of 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(11,33): error C2027: use of undefined type 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(5): message : see declaration of 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.cpp(8,19): error C2065: '_booking': undeclared identifier
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.cpp(8,28): error C3867: 'BookingManager::Booking': non-standard syntax; use '&' to create a pointer to member
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.cpp(8,28): error C2143: syntax error: missing ';' before ':'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.cpp(8,38): error C2143: syntax error: missing ';' before ')'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.cpp(8,38): error C2451: a conditional expression of type 'std::vector<Booking *,std::allocator<Booking *>>' is not valid
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.cpp(8,30): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.cpp(11,20): error C2065: '_booking': undeclared identifier
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.cpp(16,40): error C2761: 'void BookingManager::AddBooking(Booking *)': redeclaration of member is not allowed
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.cpp(16,42): error C2065: '_booking': undeclared identifier
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.cpp(16,50): error C3867: 'BookingManager::Booking': non-standard syntax; use '&' to create a pointer to member
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.cpp(17,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.cpp(17,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.cpp(21,43): error C2761: 'void BookingManager::DeleteBooking(Booking *)': redeclaration of member is not allowed
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.cpp(21,45): error C2065: '_booking': undeclared identifier
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.cpp(21,53): error C3867: 'BookingManager::Booking': non-standard syntax; use '&' to create a pointer to member
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.cpp(22,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.cpp(22,1): error C2447: '{': missing function header (old-style formal list?)
+  Client.cpp
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Object.h(3,1): error C2011: 'Object': 'class' type redefinition
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Object.h(2): message : see declaration of 'Object'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\DateTime.h(3,1): error C2504: 'Object': base class undefined
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\DateTime.h(20,15): error C3668: 'DateTime::ToString': method with override specifier 'override' did not override any base class methods
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Client.h(4,1): error C2504: 'Object': base class undefined
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Client.cpp(34,24): warning C4129: 'l': unrecognized character escape sequence
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Client.cpp(34,24): warning C4129: ' ': unrecognized character escape sequence
+  DateTime.cpp
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\DateTime.cpp(6,20): error C2039: 'Now': is not a member of 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\DateTime.h(2): message : see declaration of 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\DateTime.cpp(6,26): error C2275: 'DateTime': expected an expression instead of a type
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\DateTime.cpp(6,34): error C2143: syntax error: missing ';' before ':'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\DateTime.cpp(6,34): error C2059: syntax error: ':'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\DateTime.cpp(6,48): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\DateTime.cpp(30,23): error C3861: 'locatetime': identifier not found
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\DateTime.cpp(52,21): error C7595: 'std::_Basic_format_string<char,const int &,const int &,const int &,const int &,const int &,const int &>::_Basic_format_string': call to immediate function is not a constant expression
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\format(1360,13): message : failure was caused by evaluating a throw sub-expression
+  HomeMenu.cpp
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Object.h(3,1): error C2011: 'Object': 'class' type redefinition
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Object.h(2): message : see declaration of 'Object'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Menu.h(5,12): error C2011: 'Menu': 'class' type redefinition
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Menu.h(5): message : see declaration of 'Menu'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationMenu.h(3,1): error C2504: 'Menu': base class undefined
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationMenu.h(7,7): error C3668: 'ReservationMenu::Open': method with override specifier 'override' did not override any base class methods
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\MenuItem.h(5,1): error C2504: 'Object': base class undefined
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\MenuItem.h(14,3): error C3668: 'MenuItem::~MenuItem': method with override specifier 'override' did not override any base class methods
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\MenuItem.h(22,14): error C3668: 'MenuItem::ToString': method with override specifier 'override' did not override any base class methods
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\HomeMenu.cpp(4,111): error C2664: 'MenuItem::MenuItem(const std::string &,const std::string &,Menu *)': cannot convert argument 3 from 'ReservationMenu *' to 'Menu *'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\HomeMenu.cpp(4,108): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\MenuItem.h(12,2): message : see declaration of 'MenuItem::MenuItem'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\HomeMenu.cpp(5,1): error C2027: use of undefined type 'Menu'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\MenuItem.h(3): message : see declaration of 'Menu'
+  HotelCorrection.cpp
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Object.h(3,1): error C2011: 'Object': 'class' type redefinition
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Object.h(2): message : see declaration of 'Object'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\DateTime.h(3,1): error C2504: 'Object': base class undefined
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\DateTime.h(20,15): error C3668: 'DateTime::ToString': method with override specifier 'override' did not override any base class methods
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Menu.h(6,1): error C2504: 'Object': base class undefined
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Menu.h(16,3): error C3668: 'Menu::~Menu': method with override specifier 'override' did not override any base class methods
+  Menu.cpp
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Object.h(3,1): error C2011: 'Object': 'class' type redefinition
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Object.h(2): message : see declaration of 'Object'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\MenuItem.h(5,1): error C2504: 'Object': base class undefined
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\MenuItem.h(14,3): error C3668: 'MenuItem::~MenuItem': method with override specifier 'override' did not override any base class methods
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\MenuItem.h(22,14): error C3668: 'MenuItem::ToString': method with override specifier 'override' did not override any base class methods
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Menu.cpp(6,1): error C2027: use of undefined type 'Object'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Object.h(2): message : see declaration of 'Object'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Menu.cpp(13,1): error C2027: use of undefined type 'Object'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Object.h(2): message : see declaration of 'Object'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Menu.cpp(19,1): error C2027: use of undefined type 'Object'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Object.h(2): message : see declaration of 'Object'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Menu.cpp(61,1): error C2143: syntax error: missing ')' before '}'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Menu.cpp(61,1): error C2143: syntax error: missing ';' before '}'
+  MenuItem.cpp
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Object.h(3,1): error C2011: 'Object': 'class' type redefinition
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Object.h(2): message : see declaration of 'Object'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Menu.h(6,1): error C2504: 'Object': base class undefined
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Menu.h(16,3): error C3668: 'Menu::~Menu': method with override specifier 'override' did not override any base class methods
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\MenuItem.cpp(4,1): error C2027: use of undefined type 'Object'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Object.h(2): message : see declaration of 'Object'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\MenuItem.cpp(11,1): error C2027: use of undefined type 'Object'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Object.h(2): message : see declaration of 'Object'
+  ReservationAddMenu.cpp
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Object.h(3,1): error C2011: 'Object': 'class' type redefinition
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Object.h(2): message : see declaration of 'Object'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\DateTime.h(3,1): error C2504: 'Object': base class undefined
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\DateTime.h(20,15): error C3668: 'DateTime::ToString': method with override specifier 'override' did not override any base class methods
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\DateTime.h(2,16): error C2011: 'DateTime': 'class' type redefinition
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\DateTime.h(2): message : see declaration of 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Client.h(4,1): error C2504: 'Object': base class undefined
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Singleton.h(5,1): error C2504: 'Object': base class undefined
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Singleton.h(25): message : see reference to class template instantiation 'Singleton<T>' being compiled
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Singleton.h(13,3): error C3861: 'OnDestroy': identifier not found
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Singleton.h(13,12): message : 'OnDestroy': function declaration must be available as none of the arguments depend on a template parameter
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Singleton.h(11,3): error C3668: 'Singleton<BookingManager>::~Singleton': method with override specifier 'override' did not override any base class methods
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.h(9,55): error C2760: syntax error: '>' was unexpected here; expected 'expression'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.h(9,33): error C2059: syntax error: '>'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.h(9): error C2062: type 'unknown-type' unexpected
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(7,1): error C2504: 'Object': base class undefined
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(10,11): error C2079: 'Booking::arrivevalDate' uses undefined class 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(11,11): error C2079: 'Booking::departeDate' uses undefined class 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(16,4): error C3668: 'Booking::~Booking': method with override specifier 'override' did not override any base class methods
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(22,14): error C3668: 'Booking::ToString': method with override specifier 'override' did not override any base class methods
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(10,35): error C2027: use of undefined type 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(5): message : see declaration of 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(11,33): error C2027: use of undefined type 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(5): message : see declaration of 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationAddMenu.cpp(24,18): error C2079: '_arrival' uses undefined class 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationAddMenu.cpp(24,39): error C2027: use of undefined type 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(5): message : see declaration of 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationAddMenu.cpp(24,44): error C3861: 'Parse': identifier not found
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationAddMenu.cpp(25,18): error C2079: '_depart' uses undefined class 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationAddMenu.cpp(25,38): error C2027: use of undefined type 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(5): message : see declaration of 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationAddMenu.cpp(25,43): error C3861: 'Parse': identifier not found
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationAddMenu.cpp(27,81): error C2664: 'Booking::Booking(Client *,DateTime,DateTime)': cannot convert argument 2 from 'int' to 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationAddMenu.cpp(27,81): message : use of undefined type 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(5,7): message : see declaration of 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(14,2): message : see declaration of 'Booking::Booking'
+  ReservationDisplayMenu.cpp
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Object.h(3,1): error C2011: 'Object': 'class' type redefinition
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Object.h(2): message : see declaration of 'Object'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(7,1): error C2504: 'Object': base class undefined
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(10,11): error C2079: 'Booking::arrivevalDate' uses undefined class 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(11,11): error C2079: 'Booking::departeDate' uses undefined class 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(16,4): error C3668: 'Booking::~Booking': method with override specifier 'override' did not override any base class methods
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(22,14): error C3668: 'Booking::ToString': method with override specifier 'override' did not override any base class methods
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(10,35): error C2027: use of undefined type 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(5): message : see declaration of 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(11,33): error C2027: use of undefined type 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Booking.h(5): message : see declaration of 'DateTime'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Singleton.h(5,1): error C2504: 'Object': base class undefined
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Singleton.h(25): message : see reference to class template instantiation 'Singleton<T>' being compiled
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Singleton.h(13,3): error C3861: 'OnDestroy': identifier not found
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Singleton.h(13,12): message : 'OnDestroy': function declaration must be available as none of the arguments depend on a template parameter
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Singleton.h(11,3): error C3668: 'Singleton<BookingManager>::~Singleton': method with override specifier 'override' did not override any base class methods
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.h(9,55): error C2760: syntax error: '>' was unexpected here; expected 'expression'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.h(9,33): error C2059: syntax error: '>'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.h(9): error C2062: type 'unknown-type' unexpected
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationDisplayMenu.cpp(25,24): error C2665: 'Utils::Log': none of the 3 overloads could convert all the argument types
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Utils.h(13,14): message : could be 'void Utils::Log(const Object *)'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Utils.h(12,14): message : or       'void Utils::Log(const Object &)'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Utils.h(11,14): message : or       'void Utils::Log(const std::string &)'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationDisplayMenu.cpp(25,24): message : while trying to match the argument list '(Booking *)'
+  ReservationMenu.cpp
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Object.h(3,1): error C2011: 'Object': 'class' type redefinition
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Object.h(2): message : see declaration of 'Object'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Menu.h(5,12): error C2011: 'Menu': 'class' type redefinition
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Menu.h(5): message : see declaration of 'Menu'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationDisplayMenu.h(3,1): error C2504: 'Menu': base class undefined
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationRemoveMenu.h(3,1): error C2504: 'Menu': base class undefined
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationRemoveMenu.h(5,14): error C2065: 'Booking': undeclared identifier
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationRemoveMenu.h(5,22): error C2059: syntax error: '>'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationRemoveMenu.h(12,7): error C3668: 'ReservationRemoveMenu::Open': method with override specifier 'override' did not override any base class methods
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationRemoveMenu.h(13,7): error C3668: 'ReservationRemoveMenu::Close': method with override specifier 'override' did not override any base class methods
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationMenu.cpp(7,63): error C2027: use of undefined type 'MenuItem'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Menu.h(4): message : see declaration of 'MenuItem'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationMenu.cpp(8,67): error C2027: use of undefined type 'MenuItem'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Menu.h(4): message : see declaration of 'MenuItem'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationMenu.cpp(9,64): error C2027: use of undefined type 'MenuItem'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Menu.h(4): message : see declaration of 'MenuItem'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationMenu.cpp(15,1): error C2062: type 'void' unexpected
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationMenu.cpp(16,1): error C2027: use of undefined type 'Menu'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Menu.h(5): message : see declaration of 'Menu'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationMenu.cpp(17,8): error C2027: use of undefined type 'Menu'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Menu.h(5): message : see declaration of 'Menu'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationMenu.cpp(18,2): error C3861: 'Update': identifier not found
+  ReservationRemoveMenu.cpp
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationRemoveMenu.h(5,14): error C2065: 'Booking': undeclared identifier
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationRemoveMenu.h(5,22): error C2059: syntax error: '>'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Object.h(3,1): error C2011: 'Object': 'class' type redefinition
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Object.h(2): message : see declaration of 'Object'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Singleton.h(5,1): error C2504: 'Object': base class undefined
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Singleton.h(25): message : see reference to class template instantiation 'Singleton<T>' being compiled
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Singleton.h(13,3): error C3861: 'OnDestroy': identifier not found
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Singleton.h(13,12): message : 'OnDestroy': function declaration must be available as none of the arguments depend on a template parameter
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\Singleton.h(11,3): error C3668: 'Singleton<BookingManager>::~Singleton': method with override specifier 'override' did not override any base class methods
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.h(9,55): error C2760: syntax error: '>' was unexpected here; expected 'expression'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.h(9,33): error C2059: syntax error: '>'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.h(9): error C2062: type 'unknown-type' unexpected
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationRemoveMenu.h(5,33): error C2439: 'ReservationRemoveMenu::bookings': member could not be initialized
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationRemoveMenu.h(5): message : see declaration of 'ReservationRemoveMenu::bookings'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationRemoveMenu.cpp(20,15): error C2737: '_size': const object must be initialized
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationRemoveMenu.cpp(55,39): error C2248: 'BookingManager::bookings': cannot access private member declared in class 'BookingManager'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.h(9): message : see declaration of 'BookingManager::bookings'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.h(6): message : see declaration of 'BookingManager'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationRemoveMenu.cpp(55,39): error C2064: term does not evaluate to a function taking 0 arguments
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationRemoveMenu.cpp(70,1): error C2084: function 'void ReservationRemoveMenu::ConfirmationDelete(char)' already has a body
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationRemoveMenu.cpp(29): message : see previous definition of 'ConfirmationDelete'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\ReservationRemoveMenu.cpp(88,30): error C2039: 'RemoveBooking': is not a member of 'BookingManager'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\BookingManager.h(6): message : see declaration of 'BookingManager'
+  StringUtils.cpp
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\StringUtils.cpp(26,1): error C2440: 'return': cannot convert from 'std::string' to 'std::vector<std::string,std::allocator<std::string>>'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\HotelCorrection\StringUtils.cpp(26,4): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  Generating Code...

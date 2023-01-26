@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{be93dd0d-077c-4450-9137-4baeb8ebe64a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{13034d20-1740-4142-bca5-0d1be9f264f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\StringUtils">
+      <UniqueIdentifier>{fcf2d856-f94c-425b-bf1d-860fe1f2d076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{78a7ac59-1e36-44cc-baa7-8d621e1c63cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Date">
+      <UniqueIdentifier>{5ffeb640-296c-47e7-b2b9-c61addcfba0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Home">
+      <UniqueIdentifier>{fe29ecd3-e8bb-4314-a6f6-9eaa559de724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Booking">
+      <UniqueIdentifier>{9a561387-4ad1-457e-8d49-2110e9f027b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Reservation">
+      <UniqueIdentifier>{b363c1b4-dc52-4d49-bfd1-853d405161ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client">
+      <UniqueIdentifier>{1400f78b-b7a7-4a72-9ee4-e0c6e4ad4343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Reservation\Add">
+      <UniqueIdentifier>{d5b7a3ff-0f35-4cad-9d9a-5e24a5af92ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Reservation\Delete">
+      <UniqueIdentifier>{16a293b8-7880-49c2-b56d-ca21ee813e02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Reservation\Display">
+      <UniqueIdentifier>{67890027-43ce-42fb-a980-7bd8ad777810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\MenuItem">
+      <UniqueIdentifier>{0e979099-e10e-43de-8fee-a3f14e54d5c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Booking\Manager">
+      <UniqueIdentifier>{454cf745-595c-4974-9f76-a075fd36dee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Singleton">
+      <UniqueIdentifier>{28e00f95-c0f8-4de9-93dc-2dd71bba6e28}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HotelCorrection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="StringUtils.cpp">
+      <Filter>Utils\StringUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="DateTime.cpp">
+      <Filter>Date</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeMenu.cpp">
+      <Filter>Menu\Home</Filter>
+    </ClCompile>
+    <ClCompile Include="ReservationMenu.cpp">
+      <Filter>Menu\Reservation</Filter>
+    </ClCompile>
+    <ClCompile Include="Booking.cpp">
+      <Filter>Booking</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="ReservationAddMenu.cpp">
+      <Filter>Menu\Reservation\Add</Filter>
+    </ClCompile>
+    <ClCompile Include="ReservationRemoveMenu.cpp">
+      <Filter>Menu\Reservation\Delete</Filter>
+    </ClCompile>
+    <ClCompile Include="ReservationDisplayMenu.cpp">
+      <Filter>Menu\Reservation\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuItem.cpp">
+      <Filter>Menu\MenuItem</Filter>
+    </ClCompile>
+    <ClCompile Include="BookingManager.cpp">
+      <Filter>Booking\Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtils.h">
+      <Filter>Utils\StringUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="DateTime.h">
+      <Filter>Date</Filter>
+    </ClInclude>
+    <ClInclude Include="HomeMenu.h">
+      <Filter>Menu\Home</Filter>
+    </ClInclude>
+    <ClInclude Include="ReservationMenu.h">
+      <Filter>Menu\Reservation</Filter>
+    </ClInclude>
+    <ClInclude Include="Booking.h">
+      <Filter>Booking</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="ReservationAddMenu.h">
+      <Filter>Menu\Reservation\Add</Filter>
+    </ClInclude>
+    <ClInclude Include="ReservationRemoveMenu.h">
+      <Filter>Menu\Reservation\Delete</Filter>
+    </ClInclude>
+    <ClInclude Include="ReservationDisplayMenu.h">
+      <Filter>Menu\Reservation\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuItem.h">
+      <Filter>Menu\MenuItem</Filter>
+    </ClInclude>
+    <ClInclude Include="BookingManager.h">
+      <Filter>Booking\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Object\Singleton</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
