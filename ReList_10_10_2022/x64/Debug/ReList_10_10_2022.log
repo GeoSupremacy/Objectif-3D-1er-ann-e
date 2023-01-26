@@ -1,0 +1,28 @@
+﻿  List.cpp
+C:\Users\GUIC1203\source\repos\PPO\ReList_10_10_2022\List.h(23,12): error C3329: syntax error: expected 'identifier' not 'delete'
+C:\Users\GUIC1203\source\repos\PPO\ReList_10_10_2022\List.h(23,19): error C3878: syntax error: unexpected token '=' following 'simple_declaration'
+C:\Users\GUIC1203\source\repos\PPO\ReList_10_10_2022\List.h(23,19): message : error recovery skipped: '='
+C:\Users\GUIC1203\source\repos\PPO\ReList_10_10_2022\List.h(27,13): error C3329: syntax error: expected 'identifier' not 'delete'
+C:\Users\GUIC1203\source\repos\PPO\ReList_10_10_2022\List.h(27,20): error C3878: syntax error: unexpected token '=' following 'simple_declaration'
+C:\Users\GUIC1203\source\repos\PPO\ReList_10_10_2022\List.h(27,20): message : error recovery skipped: '='
+C:\Users\GUIC1203\source\repos\PPO\ReList_10_10_2022\List.h(48,3): error C3861: 'firsltList': identifier not found
+C:\Users\GUIC1203\source\repos\PPO\ReList_10_10_2022\List.h(54,23): error C2065: 'position': undeclared identifier
+C:\Users\GUIC1203\source\repos\PPO\ReList_10_10_2022\List.h(54,23): error C3861: 'position': identifier not found
+C:\Users\GUIC1203\source\repos\PPO\ReList_10_10_2022\List.h(58,3): error C3861: 'next': identifier not found
+C:\Users\GUIC1203\source\repos\PPO\ReList_10_10_2022\List.h(59,3): error C3861: 'current': identifier not found
+C:\Users\GUIC1203\source\repos\PPO\ReList_10_10_2022\List.h(85,1): error C2760: syntax error: '}' was unexpected here; expected ';'
+  Node.cpp
+  ReList_10_10_2022.cpp
+C:\Users\GUIC1203\source\repos\PPO\ReList_10_10_2022\List.h(23,12): error C3329: syntax error: expected 'identifier' not 'delete'
+C:\Users\GUIC1203\source\repos\PPO\ReList_10_10_2022\List.h(23,19): error C3878: syntax error: unexpected token '=' following 'simple_declaration'
+C:\Users\GUIC1203\source\repos\PPO\ReList_10_10_2022\List.h(23,19): message : error recovery skipped: '='
+C:\Users\GUIC1203\source\repos\PPO\ReList_10_10_2022\List.h(27,13): error C3329: syntax error: expected 'identifier' not 'delete'
+C:\Users\GUIC1203\source\repos\PPO\ReList_10_10_2022\List.h(27,20): error C3878: syntax error: unexpected token '=' following 'simple_declaration'
+C:\Users\GUIC1203\source\repos\PPO\ReList_10_10_2022\List.h(27,20): message : error recovery skipped: '='
+C:\Users\GUIC1203\source\repos\PPO\ReList_10_10_2022\List.h(48,3): error C3861: 'firsltList': identifier not found
+C:\Users\GUIC1203\source\repos\PPO\ReList_10_10_2022\List.h(54,23): error C2065: 'position': undeclared identifier
+C:\Users\GUIC1203\source\repos\PPO\ReList_10_10_2022\List.h(54,23): error C3861: 'position': identifier not found
+C:\Users\GUIC1203\source\repos\PPO\ReList_10_10_2022\List.h(58,3): error C3861: 'next': identifier not found
+C:\Users\GUIC1203\source\repos\PPO\ReList_10_10_2022\List.h(59,3): error C3861: 'current': identifier not found
+C:\Users\GUIC1203\source\repos\PPO\ReList_10_10_2022\List.h(85,1): error C2760: syntax error: '}' was unexpected here; expected ';'
+  Generating Code...
