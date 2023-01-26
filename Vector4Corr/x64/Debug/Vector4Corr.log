@@ -1,0 +1,102 @@
+﻿  Mathf.cpp
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(9,36): error C2143: syntax error: missing ';' before '-'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(22): message : see reference to class template instantiation 'Mathf<T>' being compiled
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(9,1): error C2238: unexpected token(s) preceding ';'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.cpp(23,9): error C3861: 'st': identifier not found
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.cpp(34,1): error C2760: syntax error: '}' was unexpected here; expected ';'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.cpp(39,1): error C2760: syntax error: '}' was unexpected here; expected ';'
+  Matrice4x4.cpp
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(9,36): error C2143: syntax error: missing ';' before '-'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(22): message : see reference to class template instantiation 'Mathf<T>' being compiled
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(9,1): error C2238: unexpected token(s) preceding ';'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Quaternion.h(36,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Matrice4x4.cpp(73,28): error C2955: 'Mathf': use of class template requires template argument list
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(5): message : see declaration of 'Mathf'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Matrice4x4.cpp(73,28): error C2039: 'Cos': is not a member of 'Mathf<T>'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Matrice4x4.cpp(73,31): error C3861: 'Cos': identifier not found
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Matrice4x4.cpp(74,28): error C2955: 'Mathf': use of class template requires template argument list
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(5): message : see declaration of 'Mathf'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Matrice4x4.cpp(84,28): error C2955: 'Mathf': use of class template requires template argument list
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(5): message : see declaration of 'Mathf'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Matrice4x4.cpp(84,28): error C2039: 'Cos': is not a member of 'Mathf<T>'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Matrice4x4.cpp(84,31): error C3861: 'Cos': identifier not found
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Matrice4x4.cpp(85,28): error C2955: 'Mathf': use of class template requires template argument list
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(5): message : see declaration of 'Mathf'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Matrice4x4.cpp(95,28): error C2955: 'Mathf': use of class template requires template argument list
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(5): message : see declaration of 'Mathf'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Matrice4x4.cpp(95,28): error C2039: 'Cos': is not a member of 'Mathf<T>'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Matrice4x4.cpp(95,31): error C3861: 'Cos': identifier not found
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Matrice4x4.cpp(96,28): error C2955: 'Mathf': use of class template requires template argument list
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(5): message : see declaration of 'Mathf'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Matrice4x4.cpp(157,42): error C2677: binary '*': no global operator found which takes type 'const Matrice4x4' (or there is no acceptable conversion)
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Matrice4x4.cpp(203,8): error C2065: '_copy': undeclared identifier
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Matrice4x4.cpp(204,8): error C2065: '_copy': undeclared identifier
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Matrice4x4.cpp(205,8): error C2065: '_copy': undeclared identifier
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Matrice4x4.cpp(206,8): error C2065: '_copy': undeclared identifier
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Matrice4x4.cpp(208,8): error C2065: '_copy': undeclared identifier
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Matrice4x4.cpp(209,8): error C2065: '_copy': undeclared identifier
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Matrice4x4.cpp(210,8): error C2065: '_copy': undeclared identifier
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Matrice4x4.cpp(211,8): error C2065: '_copy': undeclared identifier
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Matrice4x4.cpp(213,8): error C2065: '_m31': undeclared identifier
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Matrice4x4.cpp(214,8): error C2065: '_m32': undeclared identifier
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Matrice4x4.cpp(215,8): error C2065: '_m33': undeclared identifier
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Matrice4x4.cpp(216,8): error C2065: '_m34': undeclared identifier
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Matrice4x4.cpp(218,8): error C2065: '_m41': undeclared identifier
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Matrice4x4.cpp(219,8): error C2065: '_m42': undeclared identifier
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Matrice4x4.cpp(220,8): error C2065: '_m43': undeclared identifier
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Matrice4x4.cpp(221,8): error C2065: '_m44': undeclared identifier
+  Quaternion.cpp
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Quaternion.h(36,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(9,36): error C2143: syntax error: missing ';' before '-'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(22): message : see reference to class template instantiation 'Mathf<T>' being compiled
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(9,1): error C2238: unexpected token(s) preceding ';'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\AssertMacro.h(35,1): fatal error C1004: unexpected end-of-file found
+  Vector4.cpp
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(9,36): error C2143: syntax error: missing ';' before '-'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(22): message : see reference to class template instantiation 'Mathf<T>' being compiled
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(9,1): error C2238: unexpected token(s) preceding ';'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Vector4.cpp(34,24): error C2955: 'Mathf': use of class template requires template argument list
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(5): message : see declaration of 'Mathf'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Vector4.cpp(34,46): error C2955: 'Mathf': use of class template requires template argument list
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(5): message : see declaration of 'Mathf'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Vector4.cpp(34,68): error C2955: 'Mathf': use of class template requires template argument list
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(5): message : see declaration of 'Mathf'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Vector4.cpp(34,90): error C2955: 'Mathf': use of class template requires template argument list
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(5): message : see declaration of 'Mathf'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Vector4.cpp(38,24): error C2955: 'Mathf': use of class template requires template argument list
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(5): message : see declaration of 'Mathf'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Vector4.cpp(38,48): error C2955: 'Mathf': use of class template requires template argument list
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(5): message : see declaration of 'Mathf'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Vector4.cpp(38,72): error C2955: 'Mathf': use of class template requires template argument list
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(5): message : see declaration of 'Mathf'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Vector4.cpp(38,96): error C2955: 'Mathf': use of class template requires template argument list
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(5): message : see declaration of 'Mathf'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Vector4.cpp(42,24): error C2955: 'Mathf': use of class template requires template argument list
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(5): message : see declaration of 'Mathf'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Vector4.cpp(42,48): error C2955: 'Mathf': use of class template requires template argument list
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(5): message : see declaration of 'Mathf'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Vector4.cpp(42,72): error C2955: 'Mathf': use of class template requires template argument list
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(5): message : see declaration of 'Mathf'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Vector4.cpp(42,96): error C2955: 'Mathf': use of class template requires template argument list
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(5): message : see declaration of 'Mathf'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Vector4.cpp(46,29): error C2955: 'Mathf': use of class template requires template argument list
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(5): message : see declaration of 'Mathf'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Vector4.cpp(69,16): error C2955: 'Mathf': use of class template requires template argument list
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(5): message : see declaration of 'Mathf'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Vector4.cpp(77,16): error C2955: 'Mathf': use of class template requires template argument list
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(5): message : see declaration of 'Mathf'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Vector4.cpp(77,38): error C2143: syntax error: missing ')' before ';'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Vector4.cpp(92,16): error C2955: 'Mathf': use of class template requires template argument list
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(5): message : see declaration of 'Mathf'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Vector4.cpp(96,16): warning C4552: '>': result of expression not used
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Vector4.cpp(96,25): error C2059: syntax error: ')'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Vector4.cpp(98,2): error C2181: illegal else without matching if
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Vector4.cpp(186,2): error C3490: 'x' cannot be modified because it is being accessed through a const object
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Vector4.cpp(187,2): error C3490: 'y' cannot be modified because it is being accessed through a const object
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Vector4.cpp(188,2): error C3490: 'z' cannot be modified because it is being accessed through a const object
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Vector4.cpp(189,2): error C3490: 'w' cannot be modified because it is being accessed through a const object
+  Vector4Corr.cpp
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(9,36): error C2143: syntax error: missing ';' before '-'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(22): message : see reference to class template instantiation 'Mathf<T>' being compiled
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\Vector4Corr\Mathf.h(9,1): error C2238: unexpected token(s) preceding ';'
+  Generating Code...

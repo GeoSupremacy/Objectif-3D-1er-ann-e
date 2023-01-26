@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{9aad448e-28e0-4038-a95f-c898f000150c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Math">
+      <UniqueIdentifier>{8e23d3ae-b34f-4a81-ac23-ffd1b7132d83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Vector">
+      <UniqueIdentifier>{956b3795-0962-43c5-8778-2f0cd56f2ac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Vector\Vector4">
+      <UniqueIdentifier>{540707c2-3c34-4933-b7b5-83d31ba085b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Macro">
+      <UniqueIdentifier>{7226f107-17ca-4769-9682-6de789fa449e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Quaternion">
+      <UniqueIdentifier>{60ccfbe7-a65d-443c-9cc1-7148cbd33557}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Vector4Corr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4.cpp">
+      <Filter>Utils\Vector\Vector4</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathf.cpp">
+      <Filter>Utils\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
+      <Filter>Utils\Quaternion</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrice4x4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vector4.h">
+      <Filter>Utils\Vector\Vector4</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathf.h">
+      <Filter>Utils\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="AssertMacro.h">
+      <Filter>Utils\Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Utils\Quaternion</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrice4x4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
