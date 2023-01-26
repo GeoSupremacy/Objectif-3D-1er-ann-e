@@ -1,0 +1,4 @@
+﻿  TestLangueDynamique.cpp
+C:\Users\GUIC1203\source\repos\TestLangueDynamique\TestLangueDynamique.cpp(100,10): warning C4101: 'translate': unreferenced local variable
+C:\Users\GUIC1203\source\repos\TestLangueDynamique\TestLangueDynamique.cpp(108,13): warning C4101: 'iD': unreferenced local variable
+  TestLangueDynamique.vcxproj -> C:\Users\GUIC1203\source\repos\MyFirstProject\x64\Debug\TestLangueDynamique.exe
