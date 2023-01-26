@@ -1,0 +1,78 @@
+﻿  Entity.cpp
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Entity.h(22): error C2548: 'Entity::Entity': missing default argument for parameter 3
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Entity.h(22): error C2548: 'Entity::Entity': missing default argument for parameter 4
+  InventoryCorrection.cpp
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Entity.h(22): error C2548: 'Entity::Entity': missing default argument for parameter 3
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Entity.h(22): error C2548: 'Entity::Entity': missing default argument for parameter 4
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\InventoryCorrection.cpp(20,6): error C2819: type 'Map' does not have an overloaded member 'operator ->'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\MapLoader.h(4): message : see declaration of 'Map'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\InventoryCorrection.cpp(20,6): message : did you intend to use '.' instead?
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\InventoryCorrection.cpp(20,17): error C2232: '->Map::SetPlayer': left operand has 'class' type, use '.'
+  Map.cpp
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Entity.h(22): error C2548: 'Entity::Entity': missing default argument for parameter 3
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Entity.h(22): error C2548: 'Entity::Entity': missing default argument for parameter 4
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Map.cpp(44,43): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+  MapLoader.cpp
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\MapLoader.cpp(29,21): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\MapLoader.cpp(47,14): error C2513: 'unsigned __int64': no variable declared before '='
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\MapLoader.cpp(47,28): error C2059: syntax error: ';'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\MapLoader.cpp(48,2): error C2143: syntax error: missing ';' before '{'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\MapLoader.cpp(50,2): error C2143: syntax error: missing ';' before '}'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\MapLoader.cpp(52,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\MapLoader.cpp(55,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\MapLoader.cpp(57,27): error C2065: '_currentIndex': undeclared identifier
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\MapLoader.cpp(57,6): error C7568: argument list missing after assumed function template '_currentIndex'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\MapLoader.cpp(60,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\MapLoader.cpp(63,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\MapLoader.cpp(64,27): error C2059: syntax error: ';'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\MapLoader.cpp(65,2): error C2143: syntax error: missing ';' before '{'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\MapLoader.cpp(67,2): error C2143: syntax error: missing ';' before '}'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\MapLoader.cpp(68,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\MapLoader.cpp(69,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\MapLoader.cpp(69,1): fatal error C1004: unexpected end-of-file found
+  Mob.cpp
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Entity.h(22): error C2548: 'Entity::Entity': missing default argument for parameter 3
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Entity.h(22): error C2548: 'Entity::Entity': missing default argument for parameter 4
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Mob.cpp(9,5): error C2059: syntax error: 'const'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Mob.cpp(10,19): error C2143: syntax error: missing ')' before ','
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Mob.cpp(10,14): error C2259: 'Entity': cannot instantiate abstract class
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Entity.h(7): message : see declaration of 'Entity'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Mob.cpp(10,14): message : due to following members:
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Mob.cpp(10,14): message : 'void Entity::Move(void)': is abstract
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Entity.h(48): message : see declaration of 'Entity::Move'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Mob.cpp(10,21): error C2259: 'Entity': cannot instantiate abstract class
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Entity.h(7): message : see declaration of 'Entity'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Mob.cpp(10,21): message : due to following members:
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Mob.cpp(10,21): message : 'void Entity::Move(void)': is abstract
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Entity.h(48): message : see declaration of 'Entity::Move'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Mob.cpp(10,32): error C2259: 'Entity': cannot instantiate abstract class
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Entity.h(7): message : see declaration of 'Entity'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Mob.cpp(10,32): message : due to following members:
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Mob.cpp(10,32): message : 'void Entity::Move(void)': is abstract
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Entity.h(48): message : see declaration of 'Entity::Move'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Mob.cpp(10,50): error C2059: syntax error: ')'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Mob.cpp(10,42): error C2259: 'Entity': cannot instantiate abstract class
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Entity.h(7): message : see declaration of 'Entity'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Mob.cpp(10,42): message : due to following members:
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Mob.cpp(10,42): message : 'void Entity::Move(void)': is abstract
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Entity.h(48): message : see declaration of 'Entity::Move'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Mob.cpp(12,5): error C2065: 'position': undeclared identifier
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Mob.cpp(12,25): error C2059: syntax error: ';'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Mob.cpp(13,1): error C2059: syntax error: '}'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Mob.cpp(13,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Mob.cpp(15,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Mob.cpp(15,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Mob.cpp(29,5): warning C4144: '!': relational expression as switch expression
+  Path.cpp
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Path.cpp(23,27): error C2065: 'o': undeclared identifier
+  Player.cpp
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Entity.h(22): error C2548: 'Entity::Entity': missing default argument for parameter 3
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Entity.h(22): error C2548: 'Entity::Entity': missing default argument for parameter 4
+  PotionHealth.cpp
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Entity.h(22): error C2548: 'Entity::Entity': missing default argument for parameter 3
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Entity.h(22): error C2548: 'Entity::Entity': missing default argument for parameter 4
+  Vector2.cpp
+  Weapon.cpp
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Entity.h(22): error C2548: 'Entity::Entity': missing default argument for parameter 3
+C:\Users\GUIC1203\Desktop\InventoryCorrection\InventoryCorrection\Entity.h(22): error C2548: 'Entity::Entity': missing default argument for parameter 4
+  Generating Code...
