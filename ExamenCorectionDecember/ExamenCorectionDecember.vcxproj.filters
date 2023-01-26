@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Programs">
+      <UniqueIdentifier>{3c03ec7a-de92-41e5-8790-833fd22f931b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Event">
+      <UniqueIdentifier>{24e24f04-3540-4011-8821-fc1f48e8d58e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Event\Delegate">
+      <UniqueIdentifier>{4afcc0fb-3778-401a-9f85-0279fdb7523b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Utils">
+      <UniqueIdentifier>{cb402628-45a4-4a28-951b-9ce5142459ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Utils\DataBase">
+      <UniqueIdentifier>{168c446a-6be9-4114-90bd-36b910922c88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Utils\Rect">
+      <UniqueIdentifier>{812cdf8c-8c20-49aa-8c8d-707efd56364b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Object">
+      <UniqueIdentifier>{17d6028a-3009-4e93-8cd9-d038696bd7bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Window">
+      <UniqueIdentifier>{5a837c15-7ee6-4f1b-8dab-3c38401de9df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Window\Control">
+      <UniqueIdentifier>{db0424a9-7e3e-422c-8905-868714c0a04b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Window\Control\Button">
+      <UniqueIdentifier>{2015513c-aa8a-4c48-a162-6e2f200c87af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Window\Control\Label">
+      <UniqueIdentifier>{cdc0ba4d-4a23-4291-96f1-e0000a961188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Window\Control\TextField">
+      <UniqueIdentifier>{22df37d7-b1de-4e21-bb73-a870175e0afd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Window\Control\Menu">
+      <UniqueIdentifier>{569f9230-cec6-41e8-8e1b-2474d5bd3c75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Window\Control\Menu\MainMenu">
+      <UniqueIdentifier>{f32cca2f-7d4f-40b8-894c-734f0adadb5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Window\Control\Menu\BaseMenu">
+      <UniqueIdentifier>{693e22e2-a84d-4c98-b97b-89269d87163f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Window\Control\Menu\BookingMenu">
+      <UniqueIdentifier>{fffdfd6b-a322-4148-b782-630cf5f3b001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Window\Control\WindowControl">
+      <UniqueIdentifier>{36d7141b-ed1a-432a-aeb3-0ac05dcc867b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Window\Window">
+      <UniqueIdentifier>{5aceaa89-d0cb-4f0a-abf9-95f8e7e41f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Window\Control\CalendarControl">
+      <UniqueIdentifier>{dcd19726-2cd6-4451-8cb4-6aba314db3ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Utils\DateTime">
+      <UniqueIdentifier>{a324ae92-9c6d-44dd-9430-e0f915c17d17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Booking">
+      <UniqueIdentifier>{f2eff59c-f04b-4145-b814-1adc11507b4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Booking\Client">
+      <UniqueIdentifier>{b5f38379-7a66-459d-8f9e-88e004d7eecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Booking\Booking">
+      <UniqueIdentifier>{4ed4b011-9206-465c-90c2-db822803e370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Booking\Manager">
+      <UniqueIdentifier>{874eea15-b733-473e-946f-b45b2584bab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Utils\Singleton">
+      <UniqueIdentifier>{d688c65f-bb95-4392-841e-17659465f902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Window\Control\Menu\BookingViewMenu">
+      <UniqueIdentifier>{93d26e63-48d1-4483-83b3-66ada4c55a8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Window\Control\Menu\BookingViewDataMenu">
+      <UniqueIdentifier>{a4343399-ae09-4662-bab8-10d684d64a17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Main">
+      <UniqueIdentifier>{324039b7-549f-4bd2-bb7a-a457057e4d12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Object.cpp">
+      <Filter>Programs\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonControl.cpp">
+      <Filter>Programs\Window\Control\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>Programs\Utils\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="LabelControl.cpp">
+      <Filter>Programs\Window\Control\Label</Filter>
+    </ClCompile>
+    <ClCompile Include="TextFieldControl.cpp">
+      <Filter>Programs\Window\Control\TextField</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Programs\Window\Control\Menu\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseMenu.cpp">
+      <Filter>Programs\Window\Control\Menu\BaseMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowControl.cpp">
+      <Filter>Programs\Window\Control\WindowControl</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Programs\Window\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="BookingMenu.cpp">
+      <Filter>Programs\Window\Control\Menu\BookingMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="CalendarControl.cpp">
+      <Filter>Programs\Window\Control\CalendarControl</Filter>
+    </ClCompile>
+    <ClCompile Include="DateTime.cpp">
+      <Filter>Programs\Utils\DateTime</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Programs\Booking\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Booking.cpp">
+      <Filter>Programs\Booking\Booking</Filter>
+    </ClCompile>
+    <ClCompile Include="BookingManager.cpp">
+      <Filter>Programs\Booking\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="BookingViewMenu.cpp">
+      <Filter>Programs\Window\Control\Menu\BookingViewMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="BookingViewDataMenu.cpp">
+      <Filter>Programs\Window\Control\Menu\BookingViewDataMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="ExamenCorectionDecember.cpp">
+      <Filter>Programs\Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Object.h">
+      <Filter>Programs\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonControl.h">
+      <Filter>Programs\Window\Control\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Programs\Utils\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="Delegate.h">
+      <Filter>Programs\Event\Delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="LabelControl.h">
+      <Filter>Programs\Window\Control\Label</Filter>
+    </ClInclude>
+    <ClInclude Include="TextFieldControl.h">
+      <Filter>Programs\Window\Control\TextField</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Programs\Window\Control\Menu\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuDataBase.h">
+      <Filter>Programs\Utils\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMenu.h">
+      <Filter>Programs\Window\Control\Menu\BaseMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowControl.h">
+      <Filter>Programs\Window\Control\WindowControl</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Programs\Window\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="BookingMenu.h">
+      <Filter>Programs\Window\Control\Menu\BookingMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="CalendarControl.h">
+      <Filter>Programs\Window\Control\CalendarControl</Filter>
+    </ClInclude>
+    <ClInclude Include="DateTime.h">
+      <Filter>Programs\Utils\DateTime</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Programs\Booking\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Booking.h">
+      <Filter>Programs\Booking\Booking</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Programs\Utils\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="BookingManager.h">
+      <Filter>Programs\Booking\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="BookingViewMenu.h">
+      <Filter>Programs\Window\Control\Menu\BookingViewMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="BookingViewDataMenu.h">
+      <Filter>Programs\Window\Control\Menu\BookingViewDataMenu</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

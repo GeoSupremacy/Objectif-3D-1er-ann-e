@@ -1,0 +1,403 @@
+﻿  BaseMenu.cpp
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Delegate.h(18,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Delegate.h(47): message : see reference to class template instantiation 'Delegate<Res,Args...>' being compiled
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Delegate.h(18,1): warning C4183: 'Deelgate': missing return type; assumed to be a member function returning 'int'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Delegate.h(38,38): error C3861: 'args': identifier not found
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.h(8,11): warning C4099: 'Rect': type name first seen using 'struct' now seen using 'class'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Rect.h(4): message : see declaration of 'Rect'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\LabelControl.h(15,54): error C2143: syntax error: missing ';' before '&'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\LabelControl.h(15,54): error C2059: syntax error: '&'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\LabelControl.h(15,82): error C2059: syntax error: ')'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\LabelControl.h(15,83): error C2238: unexpected token(s) preceding ';'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.cpp(42,27): error C2027: use of undefined type 'Window'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.h(7): message : see declaration of 'Window'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.cpp(42,50): error C2039: 'pow': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\vector(24): message : see declaration of 'std'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.cpp(42,68): warning C4244: 'argument': conversion from 'unsigned __int64' to 'double', possible loss of data
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.cpp(42,75): error C2059: syntax error: ';'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.cpp(44,35): error C2146: syntax error: missing ')' before identifier '_WName'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.cpp(44,41): error C2660: 'BaseMenu::CreateLabel': function does not take 1 arguments
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.h(39,10): message : see declaration of 'BaseMenu::CreateLabel'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.cpp(44,35): error C2146: syntax error: missing ';' before identifier '_WName'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.cpp(44,41): error C2059: syntax error: ')'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.cpp(57,70): error C2027: use of undefined type 'Window'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.h(7): message : see declaration of 'Window'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.cpp(57,103): error C2661: 'ButtonControl::ButtonControl': no overloaded function takes 3 arguments
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.cpp(64,68): error C2027: use of undefined type 'Window'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.h(7): message : see declaration of 'Window'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.cpp(64,101): error C2661: 'LabelControl::LabelControl': no overloaded function takes 3 arguments
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.cpp(70,76): error C2027: use of undefined type 'Window'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.h(7): message : see declaration of 'Window'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.cpp(70,102): error C2027: use of undefined type 'CalendarControl'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.h(9): message : see declaration of 'CalendarControl'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.cpp(71,11): error C2027: use of undefined type 'CalendarControl'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.h(9): message : see declaration of 'CalendarControl'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.cpp(72,30): error C2664: 'void std::vector<WindowControl *,std::allocator<WindowControl *>>::push_back(const _Ty &)': cannot convert argument 1 from 'CalendarControl *' to 'const _Ty &'
+          with
+          [
+              _Ty=WindowControl *
+          ]
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.cpp(72,30): message : Reason: cannot convert from 'CalendarControl *' to 'const _Ty'
+          with
+          [
+              _Ty=WindowControl *
+          ]
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.cpp(72,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\vector(896,23): message : see declaration of 'std::vector<WindowControl *,std::allocator<WindowControl *>>::push_back'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.cpp(78,27): error C2027: use of undefined type 'Window'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.h(7): message : see declaration of 'Window'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.cpp(78,50): error C2039: 'pow': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\vector(24): message : see declaration of 'std'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.cpp(78,59): error C2039: 'lenght': is not a member of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\xstring(4919): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.cpp(78,75): error C2059: syntax error: ';'
+  BookingManager.cpp
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingManager.cpp(8,45): error C2761: 'void BookingManager::RegisterBooking(Booking *)': redeclaration of member is not allowed
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingManager.cpp(8,47): error C2065: '_booking': undeclared identifier
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingManager.cpp(8,55): error C3867: 'BookingManager::Booking': non-standard syntax; use '&' to create a pointer to member
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingManager.cpp(9,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingManager.cpp(9,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingManager.cpp(12,43): error C2761: 'void BookingManager::DeleteBooking(Booking *)': redeclaration of member is not allowed
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingManager.cpp(12,45): error C2065: '_booking': undeclared identifier
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingManager.cpp(12,53): error C3867: 'BookingManager::Booking': non-standard syntax; use '&' to create a pointer to member
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingManager.cpp(13,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingManager.cpp(13,1): error C2447: '{': missing function header (old-style formal list?)
+  BookingMenu.cpp
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Delegate.h(18,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Delegate.h(47): message : see reference to class template instantiation 'Delegate<Res,Args...>' being compiled
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Delegate.h(18,1): warning C4183: 'Deelgate': missing return type; assumed to be a member function returning 'int'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Delegate.h(38,38): error C3861: 'args': identifier not found
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.h(8,11): warning C4099: 'Rect': type name first seen using 'struct' now seen using 'class'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Rect.h(4): message : see declaration of 'Rect'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\LabelControl.h(15,54): error C2143: syntax error: missing ';' before '&'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\LabelControl.h(15,54): error C2059: syntax error: '&'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\LabelControl.h(15,82): error C2059: syntax error: ')'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\LabelControl.h(15,83): error C2238: unexpected token(s) preceding ';'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingMenu.cpp(24,45): error C2039: 'ArrivedDate': is not a member of 'CalendarControl'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\CalendarControl.h(8): message : see declaration of 'CalendarControl'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingMenu.cpp(24,70): error C2039: 'DepartureDate': is not a member of 'CalendarControl'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\CalendarControl.h(8): message : see declaration of 'CalendarControl'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingMenu.cpp(24,110): error C2661: 'Booking::Booking': no overloaded function takes 2 arguments
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingMenu.cpp(38,41): error C2027: use of undefined type 'Window'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.h(7): message : see declaration of 'Window'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingMenu.cpp(38,62): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Rect'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingMenu.cpp(38,62): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingMenu.cpp(39,67): error C2440: '=': cannot convert from 'void' to 'TextFieldControl *'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingMenu.cpp(39,29): message : Expressions of type void cannot be converted to other types
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingMenu.cpp(40,63): error C2440: '=': cannot convert from 'void' to 'TextFieldControl *'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingMenu.cpp(40,26): message : Expressions of type void cannot be converted to other types
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingMenu.cpp(41,80): error C2440: '=': cannot convert from 'void' to 'TextFieldControl *'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingMenu.cpp(41,32): message : Expressions of type void cannot be converted to other types
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Delegate.h(21,1): warning C4183: 'Deelgate': missing return type; assumed to be a member function returning 'int'
+  BookingViewMenu.cpp
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Delegate.h(18,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Delegate.h(47): message : see reference to class template instantiation 'Delegate<Res,Args...>' being compiled
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Delegate.h(18,1): warning C4183: 'Deelgate': missing return type; assumed to be a member function returning 'int'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Delegate.h(38,38): error C3861: 'args': identifier not found
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.h(8,11): warning C4099: 'Rect': type name first seen using 'struct' now seen using 'class'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Rect.h(4): message : see declaration of 'Rect'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\LabelControl.h(15,54): error C2143: syntax error: missing ';' before '&'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\LabelControl.h(15,54): error C2059: syntax error: '&'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\LabelControl.h(15,82): error C2059: syntax error: ')'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\LabelControl.h(15,83): error C2238: unexpected token(s) preceding ';'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingViewMenu.cpp(23,14): warning C4552: '%': result of expression not used
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingViewMenu.cpp(23,25): error C2059: syntax error: ')'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingViewMenu.cpp(24,3): error C2143: syntax error: missing ';' before '{'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingViewMenu.cpp(39,53): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Rect'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingViewMenu.cpp(39,53): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingViewMenu.cpp(39,54): error C2143: syntax error: missing ')' before ';'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingViewMenu.cpp(39,54): error C2660: 'BaseMenu::CreateLabel': function does not take 1 arguments
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.h(39,10): message : see declaration of 'BaseMenu::CreateLabel'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingViewMenu.cpp(44,63): error C2039: 'Bookings': is not a member of 'BookingManager'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BookingManager.h(7): message : see declaration of 'BookingManager'
+  ButtonControl.cpp
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Delegate.h(18,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Delegate.h(47): message : see reference to class template instantiation 'Delegate<Res,Args...>' being compiled
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Delegate.h(18,1): warning C4183: 'Deelgate': missing return type; assumed to be a member function returning 'int'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Delegate.h(38,38): error C3861: 'args': identifier not found
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\ButtonControl.cpp(6,106): error C2664: 'WindowControl::WindowControl(int,HWND,Rect &)': cannot convert argument 3 from 'const Rect' to 'Rect &'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\ButtonControl.cpp(6,127): message : Conversion loses qualifiers
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\WindowControl.h(23,5): message : see declaration of 'WindowControl::WindowControl'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\ButtonControl.cpp(19,13): warning C4003: not enough arguments for function-like macro invocation 'CreateWindowW'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\ButtonControl.cpp(19,13): error C2059: syntax error: ','
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\ButtonControl.cpp(20,96): error C2059: syntax error: ')'
+  CalendarControl.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24,35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24,19): error C2065: 'FORMAT_Undefined': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24,18): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24,18): message : The initializer contains too many elements
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(36,37): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(36,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(36,19): error C2065: 'FORMAT_Association': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(48,38): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(48,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(48,19): error C2065: 'FORMAT_DeviceScript': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(60,42): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(60,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(60,19): error C2065: 'FORMAT_DeviceExecutable': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(72,38): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(72,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(72,19): error C2065: 'FORMAT_TextDocument': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(84,38): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(84,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(84,19): error C2065: 'FORMAT_HTMLDocument': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(96,38): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(96,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(96,19): error C2065: 'FORMAT_DPOFDocument': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(108,34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(108,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(108,19): error C2065: 'FORMAT_AIFFFile': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(120,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(120,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(120,19): error C2065: 'FORMAT_WAVFile': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(132,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(132,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(132,19): error C2065: 'FORMAT_MP3File': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(144,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(144,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(144,19): error C2065: 'FORMAT_AVIFile': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(156,34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(156,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(156,19): error C2065: 'FORMAT_MPEGFile': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(168,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(168,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(168,19): error C2065: 'FORMAT_ASFFile': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(180,38): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(180,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(180,19): error C2065: 'FORMAT_UnknownImage': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(192,35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(192,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(192,19): error C2065: 'FORMAT_EXIFImage': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(204,37): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(204,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(204,19): error C2065: 'FORMAT_TIFFEPImage': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(216,39): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(216,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(216,19): error C2065: 'FORMAT_FlashPixImage': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(228,34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(228,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(228,19): error C2065: 'FORMAT_BMPImage': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(240,35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(240,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(240,19): error C2065: 'FORMAT_CIFFImage': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(252,34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(252,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(252,19): error C2065: 'FORMAT_GIFImage': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(264,35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(264,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(264,19): error C2065: 'FORMAT_JFIFImage': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(276,34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(276,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(276,19): error C2065: 'FORMAT_PCDImage': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(288,35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(288,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(288,19): error C2065: 'FORMAT_PICTImage': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(300,34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(300,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(300,19): error C2065: 'FORMAT_PNGImage': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(312,35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(312,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(312,19): error C2065: 'FORMAT_TIFFImage': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(324,37): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(324,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(324,19): error C2065: 'FORMAT_TIFFITImage': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(336,34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(336,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(336,19): error C2065: 'FORMAT_JP2Image': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(348,34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(348,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(348,19): error C2065: 'FORMAT_JPXImage': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(360,38): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(360,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(360,19): error C2065: 'FORMAT_FirmwareFile': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(372,35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(372,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(372,19): error C2065: 'FORMAT_WBMPImage': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(384,37): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(384,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(384,19): error C2065: 'FORMAT_JPEGXRImage': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(396,38): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(396,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(396,19): error C2065: 'FORMAT_HDPhotoImage': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(408,40): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(408,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(408,19): error C2065: 'FORMAT_UndefinedAudio': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(420,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(420,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(420,19): error C2065: 'FORMAT_WMAFile': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(432,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(432,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(432,19): error C2065: 'FORMAT_OGGFile': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(444,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(444,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(444,19): error C2065: 'FORMAT_AACFile': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(456,37): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(456,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(456,19): error C2065: 'FORMAT_AudibleFile': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(468,34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(468,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(468,19): error C2065: 'FORMAT_FLACFile': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(480,35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(480,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(480,19): error C2065: 'FORMAT_QCELPFile': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(492,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(492,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(492,19): error C2065: 'FORMAT_AMRFile': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(504,40): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(504,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(504,19): error C2065: 'FORMAT_UndefinedVideo': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(516,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(516,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(516,19): error C2065: 'FORMAT_WMVFile': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(528,35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(528,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(528,19): error C2065: 'FORMAT_MPEG4File': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(540,35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(540,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(540,19): error C2065: 'FORMAT_MPEG2File': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(552,34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(552,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(552,19): error C2065: 'FORMAT_3GPPFile': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(564,35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(564,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(564,19): error C2065: 'FORMAT_3GPP2File': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(576,35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(576,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(576,19): error C2065: 'FORMAT_AVCHDFile': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(588,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(588,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(588,19): error C2065: 'FORMAT_ATSCTSFile': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(600,35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(600,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(600,19): error C2065: 'FORMAT_DVBTSFile': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(612,45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(612,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(612,19): error C2065: 'FORMAT_UndefinedCollection': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(624,49): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(624,1): error C2374: 'DEFINE_DEVSVCGUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(24): message : see declaration of 'DEFINE_DEVSVCGUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\BridgeDeviceService.h(624,49): fatal error C1003: error count exceeds 100; stopping compilation
+  Client.cpp
+  DateTime.cpp
+  ExamenCorectionDecember.cpp
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Delegate.h(18,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Delegate.h(47): message : see reference to class template instantiation 'Delegate<Res,Args...>' being compiled
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Delegate.h(18,1): warning C4183: 'Deelgate': missing return type; assumed to be a member function returning 'int'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Delegate.h(38,38): error C3861: 'args': identifier not found
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.h(8,11): warning C4099: 'Rect': type name first seen using 'struct' now seen using 'class'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Rect.h(4): message : see declaration of 'Rect'
+  LabelControl.cpp
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\LabelControl.h(15,54): error C2143: syntax error: missing ';' before '&'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\LabelControl.h(15,54): error C2059: syntax error: '&'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\LabelControl.h(15,82): error C2059: syntax error: ')'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\LabelControl.h(15,83): error C2238: unexpected token(s) preceding ';'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\LabelControl.cpp(26,139): warning C4312: 'type cast': conversion from 'int' to 'HMENU' of greater size
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\LabelControl.cpp(26,163): error C2660: 'CreateWindowExW': function does not take 11 arguments
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(4432,1): message : see declaration of 'CreateWindowExW'
+  MainMenu.cpp
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Delegate.h(18,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Delegate.h(47): message : see reference to class template instantiation 'Delegate<Res,Args...>' being compiled
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Delegate.h(18,1): warning C4183: 'Deelgate': missing return type; assumed to be a member function returning 'int'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Delegate.h(38,38): error C3861: 'args': identifier not found
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.h(8,11): warning C4099: 'Rect': type name first seen using 'struct' now seen using 'class'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Rect.h(4): message : see declaration of 'Rect'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\LabelControl.h(15,54): error C2143: syntax error: missing ';' before '&'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\LabelControl.h(15,54): error C2059: syntax error: '&'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\LabelControl.h(15,82): error C2059: syntax error: ')'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\LabelControl.h(15,83): error C2238: unexpected token(s) preceding ';'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\MainMenu.cpp(14,9): error C2039: 'SetCurrnetMenu': is not a member of 'Window'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Window.h(14): message : see declaration of 'Window'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\MainMenu.cpp(18,9): error C2039: 'SetCurrnetMenu': is not a member of 'Window'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Window.h(14): message : see declaration of 'Window'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\MainMenu.cpp(25,79): error C2440: 'initializing': cannot convert from 'void' to 'ButtonControl *'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\MainMenu.cpp(25,33): message : Expressions of type void cannot be converted to other types
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\MainMenu.cpp(26,19): error C2039: 'OnClick': is not a member of 'ButtonControl'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\ButtonControl.h(7): message : see declaration of 'ButtonControl'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\MainMenu.cpp(27,77): error C2440: 'initializing': cannot convert from 'void' to 'ButtonControl *'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\MainMenu.cpp(27,30): message : Expressions of type void cannot be converted to other types
+  Object.cpp
+  TextFieldControl.cpp
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\TextFieldControl.cpp(5,113): error C2664: 'WindowControl::WindowControl(int,HWND,Rect &)': cannot convert argument 2 from 'Rect' to 'HWND'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\TextFieldControl.cpp(5,126): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\WindowControl.h(23,5): message : see declaration of 'WindowControl::WindowControl'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\TextFieldControl.cpp(15,22): error C3861: 'GeWindowTextLength': identifier not found
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\TextFieldControl.cpp(15,12): error C2737: '_length': const object must be initialized
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\TextFieldControl.cpp(37,96): warning C4312: 'type cast': conversion from 'int' to 'HMENU' of greater size
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\TextFieldControl.cpp(37,120): error C2660: 'CreateWindowExW': function does not take 7 arguments
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(4432,1): message : see declaration of 'CreateWindowExW'
+  Window.cpp
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Delegate.h(18,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Delegate.h(47): message : see reference to class template instantiation 'Delegate<Res,Args...>' being compiled
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Delegate.h(18,1): warning C4183: 'Deelgate': missing return type; assumed to be a member function returning 'int'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Delegate.h(38,38): error C3861: 'args': identifier not found
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\BaseMenu.h(8,11): warning C4099: 'Rect': type name first seen using 'struct' now seen using 'class'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Rect.h(4): message : see declaration of 'Rect'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Window.cpp(39,18): error C2084: function 'Window::Window(void)' already has a body
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Window.h(30): message : see previous definition of '{ctor}'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Window.cpp(40,32): error C3245: 'std::ranges::view': use of a variable template requires template argument list
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\xutility(2740): message : see declaration of 'std::ranges::view'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Window.cpp(40,22): error C2143: syntax error: missing ';' before ':'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Window.cpp(40,45): error C3245: 'std::ranges::view': use of a variable template requires template argument list
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\xutility(2740): message : see declaration of 'std::ranges::view'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Window.cpp(40,51): error C2065: 'values': undeclared identifier
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Window.cpp(40,57): error C2143: syntax error: missing ';' before ')'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Window.cpp(71,40): warning C4244: 'argument': conversion from 'WPARAM' to 'const int', possible loss of data
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Window.cpp(72,26): warning C4244: 'argument': conversion from 'WPARAM' to 'int', possible loss of data
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Window.cpp(79,60): error C2440: 'initializing': cannot convert from 'std::pair<const int,TextFieldControl *>' to 'std::map<int,TextFieldControl *,std::less<int>,std::allocator<std::pair<const int,TextFieldControl *>>>'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Window.cpp(79,60): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Window.cpp(81,15): error C2039: 'first': is not a member of 'std::map<int,TextFieldControl *,std::less<int>,std::allocator<std::pair<const int,TextFieldControl *>>>'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\TextFieldControl.h(11): message : see declaration of 'std::map<int,TextFieldControl *,std::less<int>,std::allocator<std::pair<const int,TextFieldControl *>>>'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Window.cpp(86,3): error C2361: initialization of 'textfields' is skipped by 'default' label
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\Window.cpp(78): message : see declaration of 'textfields'
+  WindowControl.cpp
+  Generating Code...
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenCorectionDecember\DateTime.cpp(55): error C4716: 'DateTime::ToSystemTime': must return a value
