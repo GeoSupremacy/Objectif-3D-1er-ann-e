@@ -1,0 +1,11 @@
+﻿  List.cpp
+C:\Users\GUIC1203\source\repos\PPO\ListCorrection\List.h(4,8): error C2332: 'class': missing tag name
+C:\Users\GUIC1203\source\repos\PPO\ListCorrection\List.h(4,8): error C2059: syntax error: 'template'
+C:\Users\GUIC1203\source\repos\PPO\ListCorrection\List.h(6,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\GUIC1203\source\repos\PPO\ListCorrection\List.h(6,1): error C2447: '{': missing function header (old-style formal list?)
+  ListCorrection.cpp
+C:\Users\GUIC1203\source\repos\PPO\ListCorrection\List.h(4,8): error C2332: 'class': missing tag name
+C:\Users\GUIC1203\source\repos\PPO\ListCorrection\List.h(4,8): error C2059: syntax error: 'template'
+C:\Users\GUIC1203\source\repos\PPO\ListCorrection\List.h(6,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\GUIC1203\source\repos\PPO\ListCorrection\List.h(6,1): error C2447: '{': missing function header (old-style formal list?)
+  Generating Code...
