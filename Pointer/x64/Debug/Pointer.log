@@ -1,3 +1,0 @@
-﻿  Pointer.cpp
-C:\Users\GUIC1203\source\repos\Cours\Pointer\Pointer\Pointer\Pointer.cpp(10,1): error C2471: cannot update program database 'C:\Users\GUIC1203\source\repos\Cours\Pointer\Pointer\Pointer\x64\Debug\vc143.pdb'
-FileTracker : error FTK1006: could not write entry to the file tracking log file: C:\Users\GUIC1203\source\repos\Cours\Pointer\Pointer\Pointer\x64\Debug\Pointer.tlog\CL.read.1.tlog. There is not enough space on the disk.
