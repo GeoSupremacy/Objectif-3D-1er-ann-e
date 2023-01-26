@@ -1,0 +1,8 @@
+﻿  List.cpp
+C:\Users\GUIC1203\source\repos\PPO\LinkedList(partThree)\List.cpp(31,19): error C2760: syntax error: 'identifier' was unexpected here; expected 'declaration'
+C:\Users\GUIC1203\source\repos\PPO\LinkedList(partThree)\List.cpp(73,1): error C2563: mismatch in formal parameter list
+C:\Users\GUIC1203\source\repos\PPO\LinkedList(partThree)\List.cpp(73,1): error C2568: '<<': unable to resolve function overload
+C:\Users\GUIC1203\source\repos\PPO\LinkedList(partThree)\List.cpp(73,1): message : could be 'std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)'
+C:\Users\GUIC1203\source\repos\PPO\LinkedList(partThree)\List.cpp(88,1): error C2563: mismatch in formal parameter list
+C:\Users\GUIC1203\source\repos\PPO\LinkedList(partThree)\List.cpp(88,1): error C2568: '<<': unable to resolve function overload
+C:\Users\GUIC1203\source\repos\PPO\LinkedList(partThree)\List.cpp(88,1): message : could be 'std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)'
