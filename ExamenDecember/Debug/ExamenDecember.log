@@ -1,0 +1,7 @@
+﻿  ExamenDecember.cpp
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenDecember\ExamenDecember.cpp(12,41): warning C4806: '==': unsafe operation: no value of type 'bool' promoted to type 'int' can equal the given constant
+  Window.cpp
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenDecember\Window.cpp(33,35): error C2440: '=': cannot convert from 'LRESULT (__cdecl *)(HWND,UINT,WPARAM,LPARAM)' to 'WNDPROC'
+C:\Users\GUIC1203\source\repos\Examen\ExamenDecember\ExamenDecember\Window.cpp(33,25): message : This conversion requires a reinterpret_cast, a C-style cast or parenthesized function-style cast
+  WindowItem.cpp
+  Generating Code...
