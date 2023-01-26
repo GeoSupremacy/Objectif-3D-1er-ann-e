@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{325b9e76-5345-40c2-980b-d8aab1551d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Game">
+      <UniqueIdentifier>{b18be523-7452-4946-bc08-efadaeb4f0fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Game\Morpion">
+      <UniqueIdentifier>{b2ec8231-9f68-481c-8fdd-22ce2b319066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Laucher">
+      <UniqueIdentifier>{0b6a9be8-ebb5-4981-9ee0-88d9fe0d9553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Utils">
+      <UniqueIdentifier>{63b80a9b-0bab-487e-8737-837aa1e21f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Game\FlappyBird">
+      <UniqueIdentifier>{fe56337a-4cee-4277-9623-9f47a5b51d10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Game\FlappyBird\Interface">
+      <UniqueIdentifier>{cc0024aa-5ca2-475d-a811-acb773eaeb5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Game\FlappyBird\Map">
+      <UniqueIdentifier>{eb38832d-5d6a-4c4d-ab76-42b41ba788c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Game\Morpion\AI">
+      <UniqueIdentifier>{d4cedfe4-3003-45c0-953d-90e6eba5d5c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Game\Morpion\Map">
+      <UniqueIdentifier>{6b476fab-c52c-4bc1-84b8-2344fab4a50a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Game\FlappyBird\Player">
+      <UniqueIdentifier>{d1dec872-e58b-4078-9c7d-5dffceebbce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Game\FlappyBird\Pipe">
+      <UniqueIdentifier>{b189c51f-4c79-4bec-bd8d-f7254a2e1531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Game\FlappyBird\Score">
+      <UniqueIdentifier>{523ff3e4-ca44-453c-adef-62801ad23e7b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CorectionGameSetting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MorpionGame.cpp">
+      <Filter>Object\Game\Morpion</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Object\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="LauncherItem.cpp">
+      <Filter>Object\Laucher</Filter>
+    </ClCompile>
+    <ClCompile Include="Launcher.cpp">
+      <Filter>Object\Laucher</Filter>
+    </ClCompile>
+    <ClCompile Include="FlappyBird.cpp">
+      <Filter>Object\Game\FlappyBird</Filter>
+    </ClCompile>
+    <ClCompile Include="FlappyMap.cpp">
+      <Filter>Object\Game\FlappyBird\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MorpionAI.cpp">
+      <Filter>Object\Game\Morpion\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="MorpionBoard.cpp">
+      <Filter>Object\Game\Morpion\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="FlappyPlayer.cpp">
+      <Filter>Object\Game\FlappyBird\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="FlappyPipe.cpp">
+      <Filter>Object\Game\FlappyBird\Pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="FlappyScore.cpp">
+      <Filter>Object\Game\FlappyBird\Score</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MorpionGame.h">
+      <Filter>Object\Game\Morpion</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Object\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="LauncherItem.h">
+      <Filter>Object\Laucher</Filter>
+    </ClInclude>
+    <ClInclude Include="Launcher.h">
+      <Filter>Object\Laucher</Filter>
+    </ClInclude>
+    <ClInclude Include="IGame.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="FlappyBird.h">
+      <Filter>Object\Game\FlappyBird</Filter>
+    </ClInclude>
+    <ClInclude Include="IDrawable.h">
+      <Filter>Object\Game\FlappyBird\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="FlappyMap.h">
+      <Filter>Object\Game\FlappyBird\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MorpionAI.h">
+      <Filter>Object\Game\Morpion\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="MorpionBoard.h">
+      <Filter>Object\Game\Morpion\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="FlappyPlayer.h">
+      <Filter>Object\Game\FlappyBird\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="FlappyPipe.h">
+      <Filter>Object\Game\FlappyBird\Pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="FlappyScore.h">
+      <Filter>Object\Game\FlappyBird\Score</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

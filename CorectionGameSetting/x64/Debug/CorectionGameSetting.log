@@ -1,0 +1,145 @@
+﻿  CorectionGameSetting.cpp
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\LauncherItem.h(13,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\LauncherItem.h(13,33): error C2143: syntax error: missing ',' before '&'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\MorpionGame.h(19,33): error C2535: 'void MorpionGame::OnStart(void)': member function already defined or declared
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\MorpionGame.h(18): message : see declaration of 'MorpionGame::OnStart'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\IGame.h(5,13): error C2011: 'IGame': 'class' type redefinition
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\IGame.h(5): message : see declaration of 'IGame'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(6,1): warning C4005: 'SCREEN_WIDTH': macro redefinition
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(5): message : see previous definition of 'SCREEN_WIDTH'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(20,1): error C2504: 'IGame': base class undefined
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(41,15): error C3668: 'FlappyBird::OnStart': method with override specifier 'override' did not override any base class methods
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(42,15): error C3668: 'FlappyBird::OnUpdate': method with override specifier 'override' did not override any base class methods
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(43,15): error C3668: 'FlappyBird::OnEnd': method with override specifier 'override' did not override any base class methods
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(44,15): error C3668: 'FlappyBird::DisplayMenu': method with override specifier 'override' did not override any base class methods
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(26,21): error C2440: 'initializing': cannot convert from 'FlappyScore' to 'FlappyScore *'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(26,34): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(26,21): error C2439: 'FlappyBird::score': member could not be initialized
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(26): message : see declaration of 'FlappyBird::score'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\CorectionGameSetting.cpp(14,49): error C2664: 'LauncherItem::LauncherItem(Igame *)': cannot convert argument 1 from 'MorpionGame *' to 'Igame *'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\CorectionGameSetting.cpp(14,45): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\LauncherItem.h(12,2): message : see declaration of 'LauncherItem::LauncherItem'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\CorectionGameSetting.cpp(15,48): error C2664: 'LauncherItem::LauncherItem(Igame *)': cannot convert argument 1 from 'FlappyBird *' to 'Igame *'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\CorectionGameSetting.cpp(15,44): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\LauncherItem.h(12,2): message : see declaration of 'LauncherItem::LauncherItem'
+  FlappyBird.cpp
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(6,1): warning C4005: 'SCREEN_WIDTH': macro redefinition
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(5): message : see previous definition of 'SCREEN_WIDTH'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(26,21): error C2440: 'initializing': cannot convert from 'FlappyScore' to 'FlappyScore *'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(26,34): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(26,21): error C2439: 'FlappyBird::score': member could not be initialized
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(26): message : see declaration of 'FlappyBird::score'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyPipe.h(4,1): warning C4005: 'PIPE': macro redefinition
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(11): message : see previous definition of 'PIPE'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\Utils.h(45,7): error C3861: 'kbhit': identifier not found
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\Utils.h(47,11): error C3861: 'getch': identifier not found
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.cpp(29,35): warning C4305: 'argument': truncation from 'int' to 'const bool'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.cpp(31,35): warning C4305: 'argument': truncation from 'int' to 'const bool'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.cpp(33,35): warning C4305: 'argument': truncation from 'int' to 'const bool'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.cpp(35,36): warning C4305: 'argument': truncation from 'int' to 'const bool'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.cpp(37,36): warning C4305: 'argument': truncation from 'int' to 'const bool'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.cpp(39,36): warning C4305: 'argument': truncation from 'int' to 'const bool'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.cpp(61,21): error C2734: '_position': 'const' object must be initialized if not 'extern'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.cpp(85,18): error C2039: 'OnStar': is not a member of 'FlappyBird'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(19): message : see declaration of 'FlappyBird'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.cpp(87,9): error C2352: 'Utils::SetWindowSize': a call of a non-static member function requires an object
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\Utils.h(41): message : see declaration of 'Utils::SetWindowSize'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.cpp(90,2): error C2065: 'sleepTime': undeclared identifier
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.cpp(91,2): error C2065: 'map': undeclared identifier
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.cpp(125,2): error C3861: '_getch': identifier not found
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.cpp(130,2): error C3861: 'DisplayConsole': identifier not found
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.cpp(133,61): error C2660: 'Utils::LogSeparator': function does not take 2 arguments
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\Utils.h(58,14): message : see declaration of 'Utils::LogSeparator'
+  FlappyMap.cpp
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(6,1): warning C4005: 'SCREEN_WIDTH': macro redefinition
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(5): message : see previous definition of 'SCREEN_WIDTH'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(26,21): error C2440: 'initializing': cannot convert from 'FlappyScore' to 'FlappyScore *'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(26,34): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(26,21): error C2439: 'FlappyBird::score': member could not be initialized
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(26): message : see declaration of 'FlappyBird::score'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\Utils.h(45,7): error C3861: 'kbhit': identifier not found
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\Utils.h(47,11): error C3861: 'getch': identifier not found
+  FlappyPipe.cpp
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(6,1): warning C4005: 'SCREEN_WIDTH': macro redefinition
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(5): message : see previous definition of 'SCREEN_WIDTH'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(11,1): warning C4005: 'PIPE': macro redefinition
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyPipe.h(4): message : see previous definition of 'PIPE'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(26,21): error C2440: 'initializing': cannot convert from 'FlappyScore' to 'FlappyScore *'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(26,34): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(26,21): error C2439: 'FlappyBird::score': member could not be initialized
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(26): message : see declaration of 'FlappyBird::score'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\Utils.h(45,7): error C3861: 'kbhit': identifier not found
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\Utils.h(47,11): error C3861: 'getch': identifier not found
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyPipe.cpp(43,26): error C2059: syntax error: '='
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyPipe.cpp(48,26): error C2059: syntax error: '='
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyPipe.cpp(60,53): error C2143: syntax error: missing ')' before '='
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyPipe.cpp(60,53): error C2660: 'strlen': function does not take 0 arguments
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h(215,16): message : see declaration of 'strlen'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyPipe.cpp(60,63): error C2059: syntax error: ')'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyPipe.cpp(62,36): error C2065: 'GAP_SIZE': undeclared identifier
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyPipe.cpp(65,53): error C2143: syntax error: missing ')' before '='
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyPipe.cpp(65,53): error C2660: 'strlen': function does not take 0 arguments
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h(215,16): message : see declaration of 'strlen'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyPipe.cpp(65,63): error C2059: syntax error: ')'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyPipe.cpp(69,18): error C2601: 'FlappyPipe::Update': local function definitions are illegal
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyPipe.cpp(54): message : this line contains a '{' which has not yet been matched
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyPipe.cpp(54): fatal error C1075: '{': no matching token found
+  FlappyPlayer.cpp
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyPlayer.h(18,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyPlayer.h(18,33): error C2143: syntax error: missing ',' before '*'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\Utils.h(45,7): error C3861: 'kbhit': identifier not found
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\Utils.h(47,11): error C3861: 'getch': identifier not found
+  FlappyScore.cpp
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(6,1): warning C4005: 'SCREEN_WIDTH': macro redefinition
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(5): message : see previous definition of 'SCREEN_WIDTH'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(26,21): error C2440: 'initializing': cannot convert from 'FlappyScore' to 'FlappyScore *'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(26,34): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(26,21): error C2439: 'FlappyBird::score': member could not be initialized
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\FlappyBird.h(26): message : see declaration of 'FlappyBird::score'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\Utils.h(45,7): error C3861: 'kbhit': identifier not found
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\Utils.h(47,11): error C3861: 'getch': identifier not found
+  Launcher.cpp
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\LauncherItem.h(13,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\LauncherItem.h(13,33): error C2143: syntax error: missing ',' before '&'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\Utils.h(45,7): error C3861: 'kbhit': identifier not found
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\Utils.h(47,11): error C3861: 'getch': identifier not found
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\Launcher.cpp(34,63): error C2446: '==': no conversion from 'int' to 'IGame *'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\Launcher.cpp(34,60): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\Launcher.cpp(57,1): error C2143: syntax error: missing ';' before '}'
+  LauncherItem.cpp
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\LauncherItem.h(13,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\LauncherItem.h(13,33): error C2143: syntax error: missing ',' before '&'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\Utils.h(45,7): error C3861: 'kbhit': identifier not found
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\Utils.h(47,11): error C3861: 'getch': identifier not found
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\LauncherItem.cpp(10,15): error C2600: 'LauncherItem::LauncherItem': cannot define a compiler-generated special member function (must be declared in the class first)
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\LauncherItem.cpp(17,2): warning C4150: deletion of pointer to incomplete type 'Igame'; no destructor called
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\LauncherItem.h(4): message : see declaration of 'Igame'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\LauncherItem.cpp(25,6): error C2027: use of undefined type 'Igame'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\LauncherItem.h(4): message : see declaration of 'Igame'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\LauncherItem.cpp(26,6): error C2027: use of undefined type 'Igame'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\LauncherItem.h(4): message : see declaration of 'Igame'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\LauncherItem.cpp(27,6): error C2027: use of undefined type 'Igame'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\LauncherItem.h(4): message : see declaration of 'Igame'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\LauncherItem.cpp(28,6): error C2027: use of undefined type 'Igame'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\LauncherItem.h(4): message : see declaration of 'Igame'
+  MorpionAI.cpp
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\MorpionAI.cpp(36,66): error C2664: 'int MorpionAI::MinMax(std::vector<int,std::allocator<int>>,int)': cannot convert argument 1 from 'void' to 'std::vector<int,std::allocator<int>>'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\MorpionAI.cpp(36,60): message : Expressions of type void cannot be converted to other types
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\MorpionAI.cpp(3,16): message : see declaration of 'MorpionAI::MinMax'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\MorpionAI.cpp(36,23): error C2737: '_tempScore': const object must be initialized
+  MorpionBoard.cpp
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\MorpionGame.h(19,33): error C2535: 'void MorpionGame::OnStart(void)': member function already defined or declared
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\MorpionGame.h(18): message : see declaration of 'MorpionGame::OnStart'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\Utils.h(45,7): error C3861: 'kbhit': identifier not found
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\Utils.h(47,11): error C3861: 'getch': identifier not found
+  MorpionGame.cpp
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\MorpionGame.h(19,33): error C2535: 'void MorpionGame::OnStart(void)': member function already defined or declared
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\MorpionGame.h(18): message : see declaration of 'MorpionGame::OnStart'
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\Utils.h(45,7): error C3861: 'kbhit': identifier not found
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\Utils.h(47,11): error C3861: 'getch': identifier not found
+  Object.cpp
+  Utils.cpp
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\Utils.h(45,7): error C3861: 'kbhit': identifier not found
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\Utils.h(47,11): error C3861: 'getch': identifier not found
+C:\Users\GUIC1203\source\repos\Objectif 3D 1ère année\Correction\Thomas\CorectionGameSetting\Utils.cpp(38,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Generating Code...

@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ClassObject">
+      <UniqueIdentifier>{f8a5d1b2-2369-46f5-a704-31b3b367d29d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClassObject\Object">
+      <UniqueIdentifier>{0707982e-ff06-4af2-8be2-6d89c5d17ccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClassObject\Path">
+      <UniqueIdentifier>{05957ae6-f731-4e00-89f3-1986ab673399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{8b1289e8-9a7f-44e3-969f-3337f3b141df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\String">
+      <UniqueIdentifier>{c58ec483-c5ec-4412-a3bc-f4ec19033b25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClassObject\Singleton">
+      <UniqueIdentifier>{f906c732-af98-41d7-b26e-69974ce7782a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClassObject\Command">
+      <UniqueIdentifier>{312fe1ce-2be0-4705-9bf4-066a1be30ebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClassObject\Command\CLS">
+      <UniqueIdentifier>{c2956f27-1d14-4293-ae73-5d48aadd494f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{6d8e5267-453d-43d3-a602-f051d4d0e72c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClassObject\Command\CD">
+      <UniqueIdentifier>{5176431a-5588-4e4e-b5e6-10732587f42c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClassObject\IO">
+      <UniqueIdentifier>{44e067fd-1056-432d-b670-09068a8252d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClassObject\IO\Directory">
+      <UniqueIdentifier>{f313ece8-75c8-4b34-8af8-99ef1f4fa6ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClassObject\Command\Echo">
+      <UniqueIdentifier>{2c2e9a34-eb35-41a4-9950-4d5c230fb4d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClassObject\Command\Exit">
+      <UniqueIdentifier>{77f679ee-c300-4fc9-957f-11b4cfe6de5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClassObject\Command\TaskList">
+      <UniqueIdentifier>{1a6dc773-ff73-4865-9c41-c0fd95606a28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClassObject\Command\Tree">
+      <UniqueIdentifier>{37a70c96-e5e5-4af9-bbbf-734915c5673b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClassObject\Command\Drive">
+      <UniqueIdentifier>{b5113d09-fcf4-42f0-95ed-6bc4e7ee7d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClassObject\Command\Time">
+      <UniqueIdentifier>{308e84ac-5941-4a93-a019-57b390df3262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClassObject\Command\Type">
+      <UniqueIdentifier>{a37e127d-a83f-4c98-9d35-182f939bf95e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClassObject\IO\File">
+      <UniqueIdentifier>{c8ba1479-aa1e-4598-9bfc-8c66dcd9413d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClassObject\Command\Help">
+      <UniqueIdentifier>{721ffef9-211b-432b-b0b2-2a85d671d8b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClassObject\Domain">
+      <UniqueIdentifier>{74cc39ad-ddee-4c40-a684-e40e29936282}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Object.cpp">
+      <Filter>ClassObject\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Path.cpp">
+      <Filter>ClassObject\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="StringUtils.cpp">
+      <Filter>Utils\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ClsCommand.cpp">
+      <Filter>ClassObject\Command\CLS</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CorectionCMD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CdCommand.cpp">
+      <Filter>ClassObject\Command\CD</Filter>
+    </ClCompile>
+    <ClCompile Include="Directory.cpp">
+      <Filter>ClassObject\IO\Directory</Filter>
+    </ClCompile>
+    <ClCompile Include="EchoCommand.cpp">
+      <Filter>ClassObject\Command\Echo</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitCommand.cpp">
+      <Filter>ClassObject\Command\Exit</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskListCommand.cpp">
+      <Filter>ClassObject\Command\TaskList</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeCommand.cpp">
+      <Filter>ClassObject\Command\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="DriveCommand.cpp">
+      <Filter>ClassObject\Command\Drive</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeCommand.cpp">
+      <Filter>ClassObject\Command\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeCommand.cpp">
+      <Filter>ClassObject\Command\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>ClassObject\IO\File</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpCommand.cpp">
+      <Filter>ClassObject\Command\Help</Filter>
+    </ClCompile>
+    <ClCompile Include="AppDomain.cpp">
+      <Filter>ClassObject\Domain</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Object.h">
+      <Filter>ClassObject\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Path.h">
+      <Filter>ClassObject\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtils.h">
+      <Filter>Utils\String</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsCommand.h">
+      <Filter>ClassObject\Command\CLS</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>ClassObject\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CdCommand.h">
+      <Filter>ClassObject\Command\CD</Filter>
+    </ClInclude>
+    <ClInclude Include="Directory.h">
+      <Filter>ClassObject\IO\Directory</Filter>
+    </ClInclude>
+    <ClInclude Include="EchoCommand.h">
+      <Filter>ClassObject\Command\Echo</Filter>
+    </ClInclude>
+    <ClInclude Include="ICommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitCommand.h">
+      <Filter>ClassObject\Command\Exit</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskListCommand.h">
+      <Filter>ClassObject\Command\TaskList</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeCommand.h">
+      <Filter>ClassObject\Command\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="DriveCommand.h">
+      <Filter>ClassObject\Command\Drive</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeCommand.h">
+      <Filter>ClassObject\Command\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeCommand.h">
+      <Filter>ClassObject\Command\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>ClassObject\IO\File</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpCommand.h">
+      <Filter>ClassObject\Command\Help</Filter>
+    </ClInclude>
+    <ClInclude Include="AppDomain.h">
+      <Filter>ClassObject\Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Assembly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
