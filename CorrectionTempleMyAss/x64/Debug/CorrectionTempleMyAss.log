@@ -1,0 +1,11 @@
+﻿  CorrectionTempleMyAss.cpp
+C:\Users\GUIC1203\source\repos\CorrectionTempleMyAss\CorrectionTempleMyAss.cpp(33,22): error C2143: syntax error: missing ')' before '-'
+C:\Users\GUIC1203\source\repos\CorrectionTempleMyAss\CorrectionTempleMyAss.cpp(33,22): error C2143: syntax error: missing ';' before '-'
+C:\Users\GUIC1203\source\repos\CorrectionTempleMyAss\CorrectionTempleMyAss.cpp(33,22): error C2059: syntax error: '-'
+C:\Users\GUIC1203\source\repos\CorrectionTempleMyAss\CorrectionTempleMyAss.cpp(33,27): error C2059: syntax error: ')'
+C:\Users\GUIC1203\source\repos\CorrectionTempleMyAss\CorrectionTempleMyAss.cpp(98,50): error C2059: syntax error: ':'
+C:\Users\GUIC1203\source\repos\CorrectionTempleMyAss\CorrectionTempleMyAss.cpp(121,5): error C2562: 'LooseGame': 'void' function returning a value
+C:\Users\GUIC1203\source\repos\CorrectionTempleMyAss\CorrectionTempleMyAss.cpp(119): message : see declaration of 'LooseGame'
+C:\Users\GUIC1203\source\repos\CorrectionTempleMyAss\CorrectionTempleMyAss.cpp(129,8): error C2059: syntax error: '>'
+C:\Users\GUIC1203\source\repos\CorrectionTempleMyAss\CorrectionTempleMyAss.cpp(167,9): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\GUIC1203\source\repos\CorrectionTempleMyAss\CorrectionTempleMyAss.cpp(175,14): warning C4834: discarding return value of function with 'nodiscard' attribute

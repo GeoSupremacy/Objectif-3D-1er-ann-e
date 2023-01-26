@@ -1,0 +1,35 @@
+﻿  CorrectionLabyrinthe.cpp
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(10,16): error C2872: 'size': ambiguous symbol
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(5,11): message : could be 'const int size'
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(10,16): message : or       'size'
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(12,5): error C2440: 'initializing': cannot convert from 'initializer list' to 'std::string'
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(18,1): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(13,6): error C2440: 'initializing': cannot convert from 'initializer list' to 'std::string'
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(18,1): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(14,7): error C2440: 'initializing': cannot convert from 'initializer list' to 'std::string'
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(18,1): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(15,8): error C2440: 'initializing': cannot convert from 'initializer list' to 'std::string'
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(18,1): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(16,9): error C2440: 'initializing': cannot convert from 'initializer list' to 'std::string'
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(18,1): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(17,10): error C2440: 'initializing': cannot convert from 'initializer list' to 'std::string'
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(18,1): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(23,33): error C2872: 'size': ambiguous symbol
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(5,11): message : could be 'const int size'
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(23,33): message : or       'size'
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(25,32): error C2039: 'lenght': is not a member of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\xstring(4919): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(30,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(31,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(48,42): error C2872: 'size': ambiguous symbol
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(5,11): message : could be 'const int size'
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(48,42): message : or       'size'
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(49,42): error C2872: 'size': ambiguous symbol
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(5,11): message : could be 'const int size'
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(49,42): message : or       'size'
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(76,9): error C3861: 'Display': identifier not found
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(83,32): error C2872: 'size': ambiguous symbol
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(5,11): message : could be 'const int size'
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(83,32): message : or       'size'
+C:\Users\GUIC1203\source\repos\CorrectionLabyrinthe\CorrectionLabyrinthe.cpp(85,32): error C2039: 'lenght': is not a member of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\xstring(4919): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
