@@ -1,0 +1,3 @@
+﻿  Labyrinth.cpp
+C:\Users\GUIC1203\source\repos\Labyrinth\Labyrinth.cpp(199,21): warning C4553: '==': result of expression not used; did you intend '='?
+  Labyrinth.vcxproj -> C:\Users\GUIC1203\source\repos\MyFirstProject\x64\Debug\Labyrinth.exe

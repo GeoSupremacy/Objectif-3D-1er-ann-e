@@ -1,0 +1,6 @@
+﻿  KmExercice.cpp
+C:\Users\GUIC1203\source\repos\KmExercice\KmExercice.cpp(42,18): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\GUIC1203\source\repos\KmExercice\KmExercice.cpp(47,18): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\GUIC1203\source\repos\KmExercice\KmExercice.cpp(57,23): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\GUIC1203\source\repos\KmExercice\KmExercice.cpp(62,23): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  KmExercice.vcxproj -> C:\Users\GUIC1203\source\repos\KmExercice\x64\Debug\KmExercice.exe
