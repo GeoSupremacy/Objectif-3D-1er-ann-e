@@ -1,0 +1,7 @@
+﻿  dllmain.cpp
+  Object.cpp
+  String.cpp
+D:\Cours\O3DLibrary\O3DLibrary\String.cpp(10,41): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Cours\O3DLibrary\O3DLibrary\String.cpp(10,41): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+  Generating Code...
+  O3DLibrary.vcxproj -> D:\Cours\O3DLibrary\x64\Debug\O3DLibrary.dll

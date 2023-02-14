@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{4ede16a7-b056-4f98-8e37-7b32b56d919a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Object">
+      <UniqueIdentifier>{ccbaccff-e1f8-48e0-b7f2-b5a4fe4d62b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\PrimaryType">
+      <UniqueIdentifier>{b6facf48-0e1c-4f87-80ab-ad4dfdb71287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\PrimaryType\String">
+      <UniqueIdentifier>{affa65f2-53b2-426c-8817-7e623349a6c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\PrimaryType\Boolean">
+      <UniqueIdentifier>{845508d6-4f55-4427-9cf1-853244cbe162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Exception">
+      <UniqueIdentifier>{f0d6145b-e3b3-4a90-ac81-ce22b5609049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\PrimaryType\Integer">
+      <UniqueIdentifier>{7dcc287e-b609-4209-9c79-5031ba35826f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Environment">
+      <UniqueIdentifier>{61fa73de-c1f1-4bc4-9bd4-78630b994e86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Diagnostics">
+      <UniqueIdentifier>{34dc5d5d-4d4e-43d7-b579-ea92a128ee88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Diagnostics\Process">
+      <UniqueIdentifier>{a35c4b84-b634-4964-b61e-7a4d336e1db7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\IO">
+      <UniqueIdentifier>{92d3b8e7-cd63-4e5b-b576-a0793326afa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\IO\Stream">
+      <UniqueIdentifier>{77375750-ca3b-4c7e-822f-73bf68812779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\IO\Stream\TextWritter">
+      <UniqueIdentifier>{98c4dde5-9924-4602-983b-58d942e6c41d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\IO\Stream\TextReader">
+      <UniqueIdentifier>{8bf5ef9b-1818-4391-812d-3f76c1fe04ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\IO\File">
+      <UniqueIdentifier>{48f6b42a-a23c-4943-bc47-16c3c5cdb5ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\IO\File\FileStream">
+      <UniqueIdentifier>{3e24c1fe-5393-41e6-8a65-57a1042c7db9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Console">
+      <UniqueIdentifier>{52edc926-ba94-434f-ad10-a72646a603da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Console\Enum">
+      <UniqueIdentifier>{ac7e0387-4ed7-46e4-84b7-6adf0fb8fa68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\IO\Path">
+      <UniqueIdentifier>{03cdaf05-3ec7-42e8-8258-366078de5597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\IO\Directory">
+      <UniqueIdentifier>{61c212ff-6426-4aeb-9fa0-457532890b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\DateTime">
+      <UniqueIdentifier>{df60d8be-258c-4026-b526-24c6eceb4cef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\DateTime\EDayOfWeek">
+      <UniqueIdentifier>{4a5caddd-eb01-4417-a31e-14aa85c971d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Box">
+      <UniqueIdentifier>{1484e9ff-3ca9-4bbf-b72c-77b76f8ba512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Box\BoxFile">
+      <UniqueIdentifier>{87f8e8d3-2fbd-45b3-8013-f08566a99587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Window">
+      <UniqueIdentifier>{e1294dcf-f98c-4212-9609-fbef80403648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Window\Menu">
+      <UniqueIdentifier>{e9431c43-87b2-4a59-a2ba-a00cb9d41a61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Window\Menu\Shape">
+      <UniqueIdentifier>{93a49435-a948-4a3d-a3b3-b4c5605c3acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Window\Menu\Shape\RectangleShape">
+      <UniqueIdentifier>{b5d7052c-1878-4702-a8ac-f7508280ffca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Window\Window">
+      <UniqueIdentifier>{fbf8f820-6a4d-4d08-9404-0c8007a67a80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Window\Menu\WindowMenu">
+      <UniqueIdentifier>{a6d55225-869f-46d3-91ba-717f08ae6324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Window\Menu\Shape\CircleShape">
+      <UniqueIdentifier>{257ee728-67e2-4302-8e87-e7ae67eb56f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Window\Menu\Shape\ComplexShape">
+      <UniqueIdentifier>{79bdf4e3-45da-43bd-bbaa-e4287869d151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Window\Menu\Shape\Shape">
+      <UniqueIdentifier>{660fda30-6962-4ecb-8611-2c44da7021f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Reflection">
+      <UniqueIdentifier>{683063ee-99ed-479b-a2b1-d410a95e726a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Reflection\FielInfo">
+      <UniqueIdentifier>{1b466168-d0f9-4363-bdab-ffba49c15e4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Reflection\BindingFlag">
+      <UniqueIdentifier>{11c7622c-f70a-43ad-b637-ce6d667dcd89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Reflection\MethodInfo">
+      <UniqueIdentifier>{d95286df-c471-480a-b5c8-02dd3d3b0858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Reflection\MethodInfo\ParameterInfo">
+      <UniqueIdentifier>{e7cedf19-6abb-466b-ab85-275dc86a5aaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\PrimaryType\Enum">
+      <UniqueIdentifier>{9b558305-0148-41ef-b27c-b33c5d2bffef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\ClipBoard">
+      <UniqueIdentifier>{5c512a4a-8f22-4ea3-aa35-764458803198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\TimeZone">
+      <UniqueIdentifier>{0529f784-9f93-4550-a518-fb250346fd91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Utils">
+      <UniqueIdentifier>{f700eb36-c813-45f8-8366-b4ccc2afa07d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Utils\Hash">
+      <UniqueIdentifier>{57ab4cad-1130-4d89-b30b-b9c1e1baacfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Collection">
+      <UniqueIdentifier>{001c0147-2021-4f89-8b23-a4a44cc57aae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Collection\Map">
+      <UniqueIdentifier>{44ebe01c-d727-4af7-93d3-84efd1b776f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Collection\KeyValuePair">
+      <UniqueIdentifier>{39541c9b-e9d7-4fa4-a53e-7950ec28cbb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Net">
+      <UniqueIdentifier>{95d6cb52-0233-465f-b104-8ae12b63a951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Net\Url">
+      <UniqueIdentifier>{f3d3437f-af14-4f0c-b1bd-6b42b1a6a071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Net\WebClient">
+      <UniqueIdentifier>{90bc3388-3246-46b9-b75a-7cc0ab71f4cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Net\WebCallback">
+      <UniqueIdentifier>{ec2e6e47-d55f-4a2a-b5c2-1b88e2f68d31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Event">
+      <UniqueIdentifier>{8474b01f-b015-4b01-854e-08448df4c82b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Event\Delegate">
+      <UniqueIdentifier>{177c8242-8bcb-4dbe-837c-acd1a28e90bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Event\Action">
+      <UniqueIdentifier>{89976e1e-316e-4c68-9520-d7633d09c7e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Core\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="O3DLibrary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FString.h">
+      <Filter>Core\PrimaryType\String</Filter>
+    </ClInclude>
+    <ClInclude Include="Boolean.h">
+      <Filter>Core\PrimaryType\Boolean</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Core\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="Integer.h">
+      <Filter>Core\PrimaryType\Integer</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment.h">
+      <Filter>Core\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.h">
+      <Filter>Core\Diagnostics\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="TextWritter.h">
+      <Filter>Core\IO\Stream\TextWritter</Filter>
+    </ClInclude>
+    <ClInclude Include="TextReader.h">
+      <Filter>Core\IO\Stream\TextReader</Filter>
+    </ClInclude>
+    <ClInclude Include="FileStream.h">
+      <Filter>Core\IO\File\FileStream</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreIO.h">
+      <Filter>Core\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="EConsoleColor.h">
+      <Filter>Core\Console\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Core\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Path.h">
+      <Filter>Core\IO\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>Core\IO\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Directory.h">
+      <Filter>Core\IO\Directory</Filter>
+    </ClInclude>
+    <ClInclude Include="DateTime.h">
+      <Filter>Core\DateTime</Filter>
+    </ClInclude>
+    <ClInclude Include="EDayOfWeek.h">
+      <Filter>Core\DateTime\EDayOfWeek</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxFile.h">
+      <Filter>Core\Box\BoxFile</Filter>
+    </ClInclude>
+    <ClInclude Include="RectangleShape.h">
+      <Filter>Core\Window\Menu\Shape\RectangleShape</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Core\Window\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowMenu.h">
+      <Filter>Core\Window\Menu\WindowMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleShape.h">
+      <Filter>Core\Window\Menu\Shape\CircleShape</Filter>
+    </ClInclude>
+    <ClInclude Include="ComplexShape.h">
+      <Filter>Core\Window\Menu\Shape\ComplexShape</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Core\Window\Menu\Shape\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldInfo.h">
+      <Filter>Core\Reflection\FielInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="BindingFlags.h">
+      <Filter>Core\Reflection\BindingFlag</Filter>
+    </ClInclude>
+    <ClInclude Include="MethodInfo.h">
+      <Filter>Core\Reflection\MethodInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="ParameterInfo.h">
+      <Filter>Core\Reflection\MethodInfo\ParameterInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>Core\PrimaryType\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="ClipBoard.h">
+      <Filter>Core\ClipBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeZone.h">
+      <Filter>Core\TimeZone</Filter>
+    </ClInclude>
+    <ClInclude Include="Hash.h">
+      <Filter>Core\Utils\Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Core\Collection\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyValuePair.h">
+      <Filter>Core\Collection\KeyValuePair</Filter>
+    </ClInclude>
+    <ClInclude Include="WebClient.h">
+      <Filter>Core\Net\WebClient</Filter>
+    </ClInclude>
+    <ClInclude Include="Url.h">
+      <Filter>Core\Net\Url</Filter>
+    </ClInclude>
+    <ClInclude Include="WebCallback.h">
+      <Filter>Core\Net\WebCallback</Filter>
+    </ClInclude>
+    <ClInclude Include="Delegate.h">
+      <Filter>Core\Event\Delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionInternal.h">
+      <Filter>Core\Event\Action</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Core\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="FString.cpp">
+      <Filter>Core\PrimaryType\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Boolean.cpp">
+      <Filter>Core\PrimaryType\Boolean</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>Core\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="Integer.cpp">
+      <Filter>Core\PrimaryType\Integer</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment.cpp">
+      <Filter>Core\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.cpp">
+      <Filter>Core\Diagnostics\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="TextWritter.cpp">
+      <Filter>Core\IO\Stream\TextWritter</Filter>
+    </ClCompile>
+    <ClCompile Include="TextReader.cpp">
+      <Filter>Core\IO\Stream\TextReader</Filter>
+    </ClCompile>
+    <ClCompile Include="FileStream.cpp">
+      <Filter>Core\IO\File\FileStream</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Core\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Path.cpp">
+      <Filter>Core\IO\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>Core\IO\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Directory.cpp">
+      <Filter>Core\IO\Directory</Filter>
+    </ClCompile>
+    <ClCompile Include="DateTime.cpp">
+      <Filter>Core\DateTime</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxFile.cpp">
+      <Filter>Core\Box\BoxFile</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleShape.cpp">
+      <Filter>Core\Window\Menu\Shape\RectangleShape</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Core\Window\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowMenu.cpp">
+      <Filter>Core\Window\Menu\WindowMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleShape.cpp">
+      <Filter>Core\Window\Menu\Shape\CircleShape</Filter>
+    </ClCompile>
+    <ClCompile Include="ComplexShape.cpp">
+      <Filter>Core\Window\Menu\Shape\ComplexShape</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Core\Window\Menu\Shape\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldInfo.cpp">
+      <Filter>Core\Reflection\FielInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="ClipBoard.cpp">
+      <Filter>Core\ClipBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeZone.cpp">
+      <Filter>Core\TimeZone</Filter>
+    </ClCompile>
+    <ClCompile Include="WebClient.cpp">
+      <Filter>Core\Net\WebClient</Filter>
+    </ClCompile>
+    <ClCompile Include="Url.cpp">
+      <Filter>Core\Net\Url</Filter>
+    </ClCompile>
+    <ClCompile Include="WebCallback.cpp">
+      <Filter>Core\Net\WebCallback</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>
