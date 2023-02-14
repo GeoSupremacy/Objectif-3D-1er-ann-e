@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Event">
+      <UniqueIdentifier>{0bbf8001-0a9d-4c1a-9bfe-1104809ccb19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{6294f5ea-b6a4-4be8-aea5-02a6ab96b189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{d0caf046-3c50-4a01-bf7e-8c2c97e216a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{073ea068-92d2-4651-b2ff-090279bebdce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{8a3c162f-5aa1-4a84-a1b7-2ff137031714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlappyBird">
+      <UniqueIdentifier>{53c901d7-3083-4cf8-ba1b-b7fd9778551f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{b824403f-65d1-4b61-a673-3ec4d8503cd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event\Delegate">
+      <UniqueIdentifier>{96e20a96-7782-42c0-aad4-2e82ee745578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton">
+      <UniqueIdentifier>{b95d48e8-aac5-436c-a79a-d24b336ab28c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlappyBird\Game">
+      <UniqueIdentifier>{f7c59b8c-4307-41ec-b587-e90c3caefa7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlappyBird\GameObject">
+      <UniqueIdentifier>{749b936c-a871-44ec-8bed-6bcbbf95cbc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlappyBird\Manager">
+      <UniqueIdentifier>{c62d6d96-7d49-4031-94b3-1631f78b5608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlappyBird\UI">
+      <UniqueIdentifier>{c77f46aa-fd7e-4f8e-8d75-85db222f1ea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlappyBird\UI\Label">
+      <UniqueIdentifier>{97ccfa52-9645-4e48-affe-0cd68f4ebbf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlappyBird\UI\Image">
+      <UniqueIdentifier>{0eecce8d-da32-4a4f-90c2-e3eb837b71c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlappyBird\UI\Button">
+      <UniqueIdentifier>{fa9f065d-f377-4ef7-b408-dabe4e2edea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window\Menu">
+      <UniqueIdentifier>{2b4975b3-783a-4be0-a9da-6b9695d8b403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlappyBird\Menu">
+      <UniqueIdentifier>{908d12f5-55ef-412a-ac3e-8253c9bdb400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gif">
+      <UniqueIdentifier>{f873fa1f-ffb0-4ec5-b71b-cb07135327ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlappyBird\UI\Manager">
+      <UniqueIdentifier>{f951c76a-bbaa-4125-8ef6-09e2edf44341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlappyBird\Pipe">
+      <UniqueIdentifier>{71b552f7-3ac5-4ba9-b9c7-877233c374d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlappyBird\Manager\Texture">
+      <UniqueIdentifier>{a1e911b3-c429-40a4-bbe0-056ef12ba184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlappyBird\Bird">
+      <UniqueIdentifier>{18d6cacb-188f-4b65-bd36-8835f71de5c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlappyBird\Score">
+      <UniqueIdentifier>{f09ac85a-6d2e-4d3e-a9b1-7d6f1796b5ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlappyBird\Menu\GameOver">
+      <UniqueIdentifier>{3f14f512-c484-42be-a85d-abd836d0bfb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlappyBird\Bird\DatBase">
+      <UniqueIdentifier>{3b1f4cad-cd90-43a9-9f1c-59e6719a9bba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SFMLProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowTest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="FlappyBird.cpp">
+      <Filter>FlappyBird</Filter>
+    </ClCompile>
+    <ClCompile Include="FB_Game.cpp">
+      <Filter>FlappyBird\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>FlappyBird\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="FB_GameObjectManager.cpp">
+      <Filter>FlappyBird\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="FB_UIElement.cpp">
+      <Filter>FlappyBird\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FB_Label.cpp">
+      <Filter>FlappyBird\UI\Label</Filter>
+    </ClCompile>
+    <ClCompile Include="FB_Image.cpp">
+      <Filter>FlappyBird\UI\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="FB_Button.cpp">
+      <Filter>FlappyBird\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseMenu.cpp">
+      <Filter>Window\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="FB_MainMenu.cpp">
+      <Filter>FlappyBird\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Gif.cpp">
+      <Filter>Gif</Filter>
+    </ClCompile>
+    <ClCompile Include="UIELementManager.cpp">
+      <Filter>FlappyBird\UI\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="FB_Pipe.cpp">
+      <Filter>FlappyBird\Pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="FB_TextureManager.cpp">
+      <Filter>FlappyBird\Manager\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="FB_Score.cpp">
+      <Filter>FlappyBird\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="FB_GameOverMenu.cpp">
+      <Filter>FlappyBird\Menu\GameOver</Filter>
+    </ClCompile>
+    <ClCompile Include="FB_Bird.cpp">
+      <Filter>FlappyBird\Bird</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="FlappyBird.h">
+      <Filter>FlappyBird</Filter>
+    </ClInclude>
+    <ClInclude Include="Delegate.h">
+      <Filter>Event\Delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="FB_Game.h">
+      <Filter>FlappyBird\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>FlappyBird\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="FB_GameObjectManager.h">
+      <Filter>FlappyBird\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="FB_UIElement.h">
+      <Filter>FlappyBird\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FB_Label.h">
+      <Filter>FlappyBird\UI\Label</Filter>
+    </ClInclude>
+    <ClInclude Include="FB_Image.h">
+      <Filter>FlappyBird\UI\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="FB_Button.h">
+      <Filter>FlappyBird\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMenu.h">
+      <Filter>Window\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="FB_MainMenu.h">
+      <Filter>FlappyBird\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Gif.h">
+      <Filter>Gif</Filter>
+    </ClInclude>
+    <ClInclude Include="UIELementManager.h">
+      <Filter>FlappyBird\UI\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="FB_Pipe.h">
+      <Filter>FlappyBird\Pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="FB_TextureManager.h">
+      <Filter>FlappyBird\Manager\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="FB_Score.h">
+      <Filter>FlappyBird\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="FB_GameOverMenu.h">
+      <Filter>FlappyBird\Menu\GameOver</Filter>
+    </ClInclude>
+    <ClInclude Include="FB_Bird.h">
+      <Filter>FlappyBird\Bird</Filter>
+    </ClInclude>
+    <ClInclude Include="FB_DataBaseMenu.h">
+      <Filter>FlappyBird\Bird\DatBase</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

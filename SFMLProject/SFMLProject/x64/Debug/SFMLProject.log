@@ -1,0 +1,150 @@
+﻿  BaseMenu.cpp
+  FB_Bird.cpp
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\Delegate.h(56,58): error C2760: syntax error: ':' was unexpected here; expected ';'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\Delegate.h(72): message : see reference to class template instantiation 'Delegate<Res,Params...>' being compiled
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\Delegate.h(56,58): error C3878: syntax error: unexpected token ':' following 'jump_statement'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\Delegate.h(56,58): message : error recovery skipped: ':'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_Bird.cpp(17,3): error C2248: 'GameObject::drawable': cannot access private member declared in class 'GameObject'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\GameObject.h(10): message : see declaration of 'GameObject::drawable'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\GameObject.h(6): message : see declaration of 'GameObject'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_Bird.cpp(33,22): error C2653: 'Mathf': is not a class or namespace name
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_Bird.cpp(33,29): error C3861: 'Lerp': identifier not found
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_Bird.cpp(40,2): error C2065: 'Ondie': undeclared identifier
+  FB_Button.cpp
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\Delegate.h(56,58): error C2760: syntax error: ':' was unexpected here; expected ';'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\Delegate.h(72): message : see reference to class template instantiation 'Delegate<Res,Params...>' being compiled
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\Delegate.h(56,58): error C3878: syntax error: unexpected token ':' following 'jump_statement'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\Delegate.h(56,58): message : error recovery skipped: ':'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_Button.cpp(42,129): warning C4244: 'argument': conversion from 'const T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_Button.cpp(42,111): warning C4244: 'argument': conversion from 'const T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+  FB_Game.cpp
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\Delegate.h(56,58): error C2760: syntax error: ':' was unexpected here; expected ';'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\Delegate.h(72): message : see reference to class template instantiation 'Delegate<Res,Params...>' being compiled
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\Delegate.h(56,58): error C3878: syntax error: unexpected token ':' following 'jump_statement'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\Delegate.h(56,58): message : error recovery skipped: ':'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_Game.cpp(52,55): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_Game.cpp(53,84): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  FB_GameObjectManager.cpp
+  FB_GameOverMenu.cpp
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\Delegate.h(56,58): error C2760: syntax error: ':' was unexpected here; expected ';'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\Delegate.h(72): message : see reference to class template instantiation 'Delegate<Res,Params...>' being compiled
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\Delegate.h(56,58): error C3878: syntax error: unexpected token ':' following 'jump_statement'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\Delegate.h(56,58): message : error recovery skipped: ':'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_GameOverMenu.cpp(9,25): error C2275: 'Window': expected an expression instead of a type
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_GameOverMenu.cpp(9,17): error C2737: '_with': const object must be initialized
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_GameOverMenu.cpp(10,27): error C2275: 'Window': expected an expression instead of a type
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_GameOverMenu.cpp(10,17): error C2737: '_height': const object must be initialized
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_GameOverMenu.cpp(38,123): error C2064: term does not evaluate to a function taking 0 arguments
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_GameOverMenu.cpp(38,136): error C2440: '<function-style-cast>': cannot convert from 'float' to 'sf::Vector2f'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_GameOverMenu.cpp(38,136): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_GameOverMenu.cpp(43,29): error C2512: 'FB_Label::FB_Label': no appropriate default constructor available
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_GameOverMenu.cpp(50,52): error C2064: term does not evaluate to a function taking 0 arguments
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_GameOverMenu.cpp(49,42): error C2440: '<function-style-cast>': cannot convert from 'float' to 'sf::Vector2f'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_GameOverMenu.cpp(50,66): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_GameOverMenu.cpp(51,33): error C2664: 'void std::vector<FB_UIElement *,std::allocator<FB_UIElement *>>::push_back(const _Ty &)': cannot convert argument 1 from 'sf::Vector2f' to 'const _Ty &'
+          with
+          [
+              _Ty=FB_UIElement *
+          ]
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_GameOverMenu.cpp(51,33): message : Reason: cannot convert from 'sf::Vector2f' to 'const _Ty'
+          with
+          [
+              _Ty=FB_UIElement *
+          ]
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_GameOverMenu.cpp(51,24): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\vector(896,23): message : see declaration of 'std::vector<FB_UIElement *,std::allocator<FB_UIElement *>>::push_back'
+  FB_Image.cpp
+  FB_Label.cpp
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_Label.cpp(11,131): warning C4390: ';': empty controlled statement found; is this the intent?
+  FB_MainMenu.cpp
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\Delegate.h(56,58): error C2760: syntax error: ':' was unexpected here; expected ';'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\Delegate.h(72): message : see reference to class template instantiation 'Delegate<Res,Params...>' being compiled
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\Delegate.h(56,58): error C3878: syntax error: unexpected token ':' following 'jump_statement'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\Delegate.h(56,58): message : error recovery skipped: ':'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_MainMenu.cpp(29,130): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_MainMenu.cpp(36,53): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  FB_Pipe.cpp
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\Delegate.h(56,58): error C2760: syntax error: ':' was unexpected here; expected ';'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\Delegate.h(72): message : see reference to class template instantiation 'Delegate<Res,Params...>' being compiled
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\Delegate.h(56,58): error C3878: syntax error: unexpected token ':' following 'jump_statement'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\Delegate.h(56,58): message : error recovery skipped: ':'
+  FB_Score.cpp
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_Score.h(9,8): error C2143: syntax error: missing ';' before '*'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_Score.h(9,8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_Score.h(9,25): error C2238: unexpected token(s) preceding ';'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_Score.h(15,11): error C2061: syntax error: identifier 'Window'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_Score.cpp(7,1): error C2511: 'FB_Score::FB_Score(Window *)': overloaded member function not found in 'FB_Score'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_Score.h(5): message : see declaration of 'FB_Score'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_Score.cpp(8,5): error C2065: 'owner': undeclared identifier
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_Score.cpp(9,5): error C2597: illegal reference to non-static member 'FB_Score::scoreText'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_Score.h(11): message : see declaration of 'FB_Score::scoreText'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_Score.cpp(28,21): error C2065: 'owner': undeclared identifier
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_Score.cpp(37,16): error C2039: 'scoreText': is not a member of 'FB_Label'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_Label.h(5): message : see declaration of 'FB_Label'
+  FB_TextureManager.cpp
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_TextureManager.cpp(10,7): error C2065: 'textures': undeclared identifier
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_TextureManager.cpp(14,37): error C7595: 'std::_Basic_format_string<char>::_Basic_format_string': call to immediate function is not a constant expression
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\format(231,67): message : failure was caused by call of undefined function or one not declared 'constexpr'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\format(231,67): message : see usage of 'std::_You_see_this_error_because_arg_id_is_out_of_range'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_TextureManager.cpp(15,5): error C2143: syntax error: missing ')' before 'return'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_TextureManager.cpp(14,24): error C2440: '<function-style-cast>': cannot convert from 'std::string' to 'std::exception'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_TextureManager.cpp(15,5): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_TextureManager.cpp(15,5): error C2143: syntax error: missing ';' before 'return'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_TextureManager.cpp(17,9): error C2065: 'textures': undeclared identifier
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_TextureManager.cpp(25,25): error C2065: 'length': undeclared identifier
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_TextureManager.cpp(27,10): error C2065: '_pair': undeclared identifier
+  FB_UIElement.cpp
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_UIElement.cpp(16,16): error C2475: 'FB_UIElement::~FB_UIElement': redefinition; 'constexpr' specifier mismatch
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_UIElement.h(31): message : compiler has generated 'FB_UIElement::~FB_UIElement' here
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\FB_UIElement.cpp(16,16): error C2600: 'FB_UIElement::~FB_UIElement': cannot define a compiler-generated special member function (must be declared in the class first)
+  FlappyBird.cpp
+  GameObject.cpp
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\GameObject.cpp(28,35): error C2664: 'void GameObject::OnCollisionEnter(GameObject *)': cannot convert argument 1 from 'sf::Drawable *' to 'GameObject *'
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\GameObject.cpp(28,27): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\GameObject.cpp(26,18): message : see declaration of 'GameObject::OnCollisionEnter'
+  Gif.cpp
+  Input.cpp
+  Object.cpp
+  SFMLProject.cpp
+  UIELementManager.cpp
+  Generating Code...
+  Compiling...
+  Window.cpp
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\Window.cpp(54,9): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\Window.cpp(58,9): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\Window.cpp(62,53): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\GUIC1203\source\repos\Objectif_3D_P1\Cours\Cours_Thomas\Cours\SFMLProject\SFMLProject\Window.cpp(62,46): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  WindowTest.cpp
+  Generating Code...
