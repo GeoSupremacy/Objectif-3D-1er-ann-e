@@ -9,6 +9,8 @@
 #include "Camera/CameraComponent.h"
 #include "MyFirstPawn.generated.h"
 
+
+
 UCLASS()
 class OLAF_API AMyFirstPawn : public APawn
 {
