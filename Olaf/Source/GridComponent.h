@@ -12,7 +12,13 @@ class OLAF_API UGridComponent : public UActorComponent
 {
 	GENERATED_BODY()
 
-		FVector Entity;
+	UPROPERTY(EditanyWhere, Category = maxSize)
+		int maxHorizontal;
+	UPROPERTY(EditanyWhere, Category = maxSize)
+		int maxVertical;
+	UPROPERTY()
+		int horizontal = 0, vertical = 0;
+
 public:	
 	UGridComponent();
 
@@ -20,5 +26,8 @@ private:
 	virtual void BeginPlay() override;
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;	
 	void DrawCase();
-	void CheckMovement();
+	void Up();
+	void Down();
+	void Left();
+	void Right();
 };

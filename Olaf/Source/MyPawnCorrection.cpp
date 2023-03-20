@@ -13,6 +13,7 @@ AMyPawnCorrection::AMyPawnCorrection()
 	arm = CREATE_TO(USpringArmComponent, "ARM");
 	camera = CREATE_TO(UCameraComponent, "Camera");
 	RootComponent = mesh;
+	//mesh->SETSTATIC_CUBE;
 	ATTACH_TO(arm, RootComponent);
 	ATTACH_TO(camera, arm);
 	movement = CREATE_TO(UFloatingPawnMovement, "Movement");
@@ -21,23 +22,24 @@ AMyPawnCorrection::AMyPawnCorrection()
 void AMyPawnCorrection::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	//FPC->SetViewTarget(this);
 }
 void AMyPawnCorrection::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+
 	DRAW_SPHERE((GetActorLocation() + GetVelocity().GetClampedToMaxSize(100)), 5, FColor::Yellow, 2);
 	DRAW_LINE(GetActorLocation(), (GetActorLocation() + GetVelocity().GetClampedToMaxSize(100)), FColor::Yellow, 2);
 }
-
-
 void AMyPawnCorrection::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	BIND_AXIS_WITH_INPUT(VERTICAL, this, &AMyPawnCorrection::MoveForward);
 	BIND_AXIS_WITH_INPUT(HORIZONTAL, this, &AMyPawnCorrection::RollMovement);
 	BIND_AXIS_WITH_INPUT(HORIZONTAL, this, &AMyPawnCorrection::YawMovement);
-	BIND_ACTION_WITH_INPUT(MOVE_GRID_HORIZONTAL, EInputEvent::IE_Pressed, this, &AMyPawnCorrection::MoveInGridForward);
+
+	
 }
 
 void AMyPawnCorrection::MoveForward(float _axis)
@@ -56,14 +58,5 @@ void AMyPawnCorrection::YawMovement(float _axis)
 {
 	settings.yawAxis = FMath::Lerp(settings.yawAxis, _axis, DELTATIME * (1 / settings.yawdWeight));
 	AddControllerYawInput(settings.yawAxis);
-}
-void AMyPawnCorrection::MoveInGridForward()
-{
-	AddMovementInput(GetActorForwardVector() +100, 100);
-}
-void AMyPawnCorrection::MoveInGridRight(float _axis)
-{
-	settings.rightAxis = FMath::Lerp(settings.rightAxis, _axis, DELTATIME * (1 / settings.rightWeight));
-	AddMovementInput(GetActorRightVector(), settings.rightAxis);
 }
 

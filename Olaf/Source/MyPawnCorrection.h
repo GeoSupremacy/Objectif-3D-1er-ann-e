@@ -41,7 +41,8 @@ class OLAF_API AMyPawnCorrection : public APawn
 	UPROPERTY(EditanyWhere, Category = ObjectPtr)
 		FShipControlsSettings settings;
 
-	float x = 100;
+
+	 
 public:
 	AMyPawnCorrection();
 private:
@@ -51,6 +52,4 @@ private:
 	void MoveForward(float _axis);
 	void RollMovement(float _axis);
 	void YawMovement(float _axis);
-	void MoveInGridForward();
-	void MoveInGridRight(float _axis);
 };

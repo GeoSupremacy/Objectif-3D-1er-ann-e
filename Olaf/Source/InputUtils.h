@@ -5,8 +5,12 @@
 #define HORIZONTAL "Horizontale"
 #define ROTATE "Rotate"
 #define RESET "Reset"
-#define MOVE_GRID_VERTICAL "MoveGridVertical"
-#define MOVE_GRID_HORIZONTAL "MoveGridHorizontal"
+
+#define UP "Up"
+#define DOWN "Down"
+#define LEFT "Left"
+#define RIGHT "Right"
+#define SELECT "Select"
 
 #define PLAYER GetWorld()->GetFirstPlayerController()->InputComponent
 #define BIND_AXIS(name, owner, method) GetWorld()->GetFirstPlayerController()->InputComponent->BindAxis(name, owner, method);

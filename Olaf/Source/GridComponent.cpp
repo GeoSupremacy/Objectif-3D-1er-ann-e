@@ -25,21 +25,49 @@ void UGridComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorC
 }
 void UGridComponent::DrawCase()
 {
-	int H = -200;
-	for (size_t i = 1; i <= 6; i++)
+	int _forward = -200;
+	for (size_t i = 1; i <= maxHorizontal; i++)
 	{
-		int k = -200;
-		H = H+ 200;
-		for (size_t j = 1; j <= 6; j++)
+		int _right = -200;
+		_forward = _forward + 200;
+		for (size_t j = 1; j <= maxVertical; j++)
 		{
-			k = k +200;
-			DRAW_BOX(FVector(j*100 +k, i*100 + H ,50), FVector(50), FColor::Red, 5)
+			_right = _right + 200;
+			DRAW_BOX(FVector(j * 100 + _right, i * 100 + _forward, 50), FVector(50), FColor::Red, 5)
 		}
 	}
 	
 }
-void UGridComponent::CheckMovement()
+void UGridComponent::Up()
 {
-
+	if (horizontal > maxHorizontal)
+		return;
+	horizontal += 1;
+	//const FVector _direction = GetActorForwardVector().GetSafeNormal();
+	//SetActorLocation(GetActorLocation() + (_direction * 300));
+}
+void UGridComponent::Down()
+{
+	if (horizontal < 0)
+		return;
+	horizontal -= 1;
+	//const FVector _direction = GetActorForwardVector().GetSafeNormal();
+	//SetActorLocation(GetActorLocation() + (_direction * -300));
+}
+void UGridComponent::Left()
+{
+	if (vertical < 0)
+		return;
+	vertical -= 1;
+	//const FVector _direction = GetActorRightVector().GetSafeNormal();
+	//SetActorLocation(GetActorLocation() + (_direction * -300));
+}
+void UGridComponent::Right()
+{
+	if (vertical > maxVertical)
+		return;
+	vertical += 1;
+	//const FVector _direction = GetActorRightVector().GetSafeNormal();
+	//SetActorLocation(GetActorLocation() + (_direction * 300));
 }
 
